@@ -1,0 +1,18 @@
+{
+  "name": "SocialSimulation.Editor.Observer",
+  "rootNamespace": "SocialSimulation.Editor.Observer",
+  "references": [
+    "SocialSimulation.Core",
+    "SocialSimulation.Graph",
+    "SocialSimulation.Actions",
+    "SocialSimulation.UnityRuntime"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}

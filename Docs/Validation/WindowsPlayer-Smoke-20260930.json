@@ -1,0 +1,26 @@
+{
+    "UnityVersion": "6000.6.2f1",
+    "Passed": true,
+    "Scenes": [
+        {
+            "Scene": "CombinedSocialWorld",
+            "NavMeshVertices": 16,
+            "Npcs": 27,
+            "AgentsOnMesh": 27,
+            "TravelAccepted": true,
+            "TravelStatus": "Succeeded",
+            "SimulatedTime": 310.0,
+            "Error": ""
+        },
+        {
+            "Scene": "IndependentCommunity",
+            "NavMeshVertices": 16,
+            "Npcs": 7,
+            "AgentsOnMesh": 7,
+            "TravelAccepted": true,
+            "TravelStatus": "Succeeded",
+            "SimulatedTime": 310.0,
+            "Error": ""
+        }
+    ]
+}

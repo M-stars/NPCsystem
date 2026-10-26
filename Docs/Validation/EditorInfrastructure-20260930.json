@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "tail": "12",
+      "level": "error"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 88,
+          "timestampUtc": "2026-09-30T04:55:04.3387603Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/commands request: Unable to write data to the transport connection: 远程主机强迫关闭了一个现有的连接。\r\n",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleCommandsRequest>d__85:MoveNext () (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/BasePipelineServer.cs:989)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 89,
+          "timestampUtc": "2026-09-30T04:55:04.3463006Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Pipeline: unhandled error serving GET /api/commands: System.InvalidOperationException: Cannot be changed after headers are sent.\r\n  at System.Net.HttpListenerResponse.set_StatusCode (System.Int32 value) [0x00021] in <3c0e69b4cd544897a25b0e700ba31a7c>:0 \r\n  at Unity.Pipeline.BasePipelineServer.HandleCommandsRequest (System.Net.HttpListenerRequest request, System.Net.HttpListenerResponse response) [0x00780] in .\\Library\\PackageCache\\com.unity.pipeline@ab05e9cd7f74\\Runtime\\Common\\BasePipelineServer.cs:992 \r\n  at Unity.Pipeline.BasePipelineServer.ProcessRequest (System.Net.HttpListenerContext context) [0x005fd] in .\\Library\\PackageCache\\com.unity.pipeline@ab05e9cd7f74\\Runtime\\Common\\BasePipelineServer.cs:592 ",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<ProcessRequest>d__77:MoveNext () (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/BasePipelineServer.cs:629)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<HandleCommandsRequest>d__85:MoveNext () (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/BasePipelineServer.cs:1001)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 93,
+      "session": "a80bad29cf4e4654902b6e4c87e9e4e2",
+      "returned": 2,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 2,
+        "warn": 2,
+        "log": 89
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-09-30T04:55:20.9537636Z",
+        "ageMs": 286,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 2,
+        "consoleWarnings": 0,
+        "consoleLogs": 6,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\unity_hub\\NPCsystem"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

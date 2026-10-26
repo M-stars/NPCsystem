@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var paths = new System.Collections.Generic.HashSet<string>(System.StringComparer.Ordinal); foreach (var filter in new [] { \"t:StyleSheet\", \"t:VisualTreeAsset\" }) foreach (var guid in UnityEditor.AssetDatabase.FindAssets(filter, new [] { \"Assets/SocialSimulation\" })) paths.Add(UnityEditor.AssetDatabase.GUIDToAssetPath(guid)); var before = new System.Collections.Generic.Dictionary<string,string>(); foreach (var path in paths) before.Add(path, UnityEditor.AssetDatabase.AssetPathToGUID(path)); UnityEditor.AssetDatabase.ForceReserializeAssets(paths, UnityEditor.ForceReserializeAssetsOptions.ReserializeMetadata); foreach (var path in paths) if (before[path] != UnityEditor.AssetDatabase.AssetPathToGUID(path)) throw new System.InvalidOperationException(\"GUID changed: \" + path); return new { Count = paths.Count, Paths = paths, GuidsPreserved = true };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "Count": 5,
+        "Paths": [
+          "Assets/SocialSimulation/Editor/Content/ContentCatalogWindow.uss",
+          "Assets/SocialSimulation/Editor/Graph/GraphWorkbench.uss",
+          "Assets/SocialSimulation/Editor/Graph/GraphWorkbench.uxml",
+          "Assets/SocialSimulation/Editor/Observer/ActorObserverWindow.uss",
+          "Assets/SocialSimulation/Editor/Observer/ActorObserverWindow.uxml"
+        ],
+        "GuidsPreserved": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\unity_hub\\NPCsystem"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

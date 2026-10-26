@@ -1,0 +1,14 @@
+{
+  "name": "SocialSimulation.Editor.Benchmarks",
+  "rootNamespace": "SocialSimulation.Editor.Benchmarks",
+  "references": ["SocialSimulation.Core"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

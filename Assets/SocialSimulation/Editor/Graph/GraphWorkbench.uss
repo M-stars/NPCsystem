@@ -1,0 +1,113 @@
+.workbench {
+    flex-grow: 1;
+    background-color: #20252c;
+    color: #e8edf2;
+}
+
+.toolbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 36px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom-width: 1px;
+    border-bottom-color: #48535f;
+}
+
+.toolbar Button {
+    margin-right: 5px;
+}
+
+.runtime-toolbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom-width: 1px;
+    border-bottom-color: #48535f;
+    background-color: #262d36;
+}
+
+.runtime-toolbar Button { margin-right: 5px; }
+.runtime-versions { margin-left: 10px; color: #b8cedc; flex-grow: 1; min-width: 220px; white-space: normal; }
+
+.document-field { min-width: 210px; flex-grow: 1; margin-right: 8px; }
+.actor-field { min-width: 180px; margin-left: 8px; }
+.edge-type-field { min-width: 190px; margin-right: 8px; }
+
+.main { flex-direction: row; flex-grow: 1; min-height: 250px; }
+.side-panel { background-color: #292f38; padding: 8px; }
+.left-panel { width: 205px; border-right-width: 1px; border-right-color: #48535f; }
+.right-panel { width: 260px; border-left-width: 1px; border-left-color: #48535f; }
+.panel-title { color: #e8edf2; -unity-font-style: bold; font-size: 13px; margin-bottom: 8px; }
+.palette { flex-grow: 1; }
+.palette-item { min-height: 28px; margin-top: 2px; -unity-text-align: middle-left; }
+.palette-compatibility { white-space: normal; font-size: 10px; margin-bottom: 7px; color: #b8cedc; }
+.inspector { flex-grow: 1; }
+.inspector Label { margin-bottom: 6px; white-space: normal; }
+.inspector TextField { margin-bottom: 6px; }
+.graph-host { flex-grow: 1; min-width: 0; }
+.social-graph-view { flex-grow: 1; }
+
+.behavior-node { border-top-width: 3px; border-top-color: #55b9d4; }
+.rule-node { border-top-width: 3px; border-top-color: #dc9d64; }
+.node-summary { color: #d4e0e9; padding-left: 10px; padding-right: 10px; padding-bottom: 7px; }
+.node-error { border-bottom-width: 3px; border-bottom-color: #ef6971; }
+.trace-running { border-left-width: 4px; border-left-color: #6abce8; }
+.trace-success { border-left-width: 4px; border-left-color: #6ed59b; }
+.trace-failure { border-left-width: 4px; border-left-color: #f3a16d; }
+.structure-node { border-top-width: 3px; border-top-color: #c0a9ed; }
+.structure-agent { border-top-color: #7cc5e8; }
+.structure-collective { border-top-color: #e6b873; }
+.structure-organization { border-top-color: #d7a4e9; }
+.structure-role { border-top-color: #9dd8a0; }
+.structure-place { border-top-color: #b7c9d5; }
+.structure-edge-label {
+    position: absolute;
+    left: 42px;
+    top: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #394550;
+    color: #f3f6f8;
+    font-size: 10px;
+}
+
+.bottom {
+    height: 210px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-width: 1px;
+    border-top-color: #48535f;
+    background-color: #252b34;
+}
+.status { color: #d8e2eb; margin-top: 5px; margin-bottom: 4px; }
+.bottom-body { flex-direction: row; flex-grow: 1; min-height: 0; }
+.blackboard-panel { width: 355px; margin-right: 8px; border-right-width: 1px; border-right-color: #48535f; }
+.blackboard-toolbar { flex-direction: row; align-items: center; min-height: 25px; }
+.blackboard-toolbar Label { flex-grow: 1; -unity-font-style: bold; }
+.blackboard-list { flex-grow: 1; }
+.blackboard-card { border-bottom-width: 1px; border-bottom-color: #48535f; padding-bottom: 5px; margin-bottom: 5px; }
+.blackboard-card Label { color: #a8c5d8; }
+.blackboard-card TextField, .blackboard-card EnumField { margin-bottom: 2px; }
+.rule-preview-panel { flex-grow: 2; min-width: 440px; margin-right: 8px; border-right-width: 1px; border-right-color: #48535f; }
+.rule-preview-fields { height: 78px; flex-shrink: 0; }
+.rule-preview-fields-row { flex-direction: row; }
+.rule-preview-fields-row TextField, .rule-preview-fields-row DoubleField,
+.rule-preview-fields-row LongField, .rule-preview-fields-row Toggle { width: 220px; margin-right: 5px; }
+.rule-preview-results { flex-grow: 1; }
+.rule-preview-results Button { -unity-text-align: middle-left; margin-bottom: 1px; }
+.preview-explanation, .rule-preview-result { white-space: normal; }
+.typed-rule-field { flex-direction: row; margin-bottom: 3px; }
+.typed-rule-heading { flex-direction: row; }
+.typed-rule-heading Label { width: 22%; }
+.typed-rule-field TextField { width: 22%; min-width: 60px; }
+.typed-rule-field DropdownField { width: 20%; min-width: 65px; }
+.hidden { display: none; }
+.diagnostics { flex-grow: 1; }
+.diagnostics Button { -unity-text-align: middle-left; margin-bottom: 2px; }
+.diagnostic-error { color: #ff9298; }
+.diagnostic-warning { color: #f4cc84; }

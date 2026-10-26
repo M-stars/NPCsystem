@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var w = UnityEngine.Resources.FindObjectsOfTypeAll<SocialSimulation.Editor.Content.ContentCatalogWindow>()[0]; typeof(SocialSimulation.Editor.Content.ContentCatalogWindow).GetMethod(\"ValidateCatalog\", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic).Invoke(w, null); var label = UnityEngine.UIElements.UQueryExtensions.Query<UnityEngine.UIElements.Label>(w.rootVisualElement, null, \"catalog-summary\").First(); var packages = UnityEngine.UIElements.UQueryExtensions.Query<UnityEngine.UIElements.Label>(w.rootVisualElement, null, \"catalog-good\").ToList(); var names = new System.Collections.Generic.List<string>(); foreach (var item in packages) names.Add(item.text); return new { Summary = label.text, Packages = names, Window = w.position.ToString() };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "Summary": "校验通过：所有已注册包与依赖可一起加载。",
+        "Packages": [
+          "npc.charactermedium  v1.2.0  ·  结构通过",
+          "npc.character_a  v1.0.0  ·  结构通过",
+          "region.campus.classroom  v1.1.0  ·  结构通过",
+          "region.campus.corridor  v1.1.0  ·  结构通过",
+          "region.campus.office  v1.1.0  ·  结构通过",
+          "region.campus.yard  v1.1.0  ·  结构通过",
+          "region.household.home  v1.1.0  ·  结构通过",
+          "region.trade.shop  v1.1.0  ·  结构通过",
+          "region.community.square  v1.1.0  ·  结构通过",
+          "region.trade.workshop  v1.1.0  ·  结构通过",
+          "campus  v1.0.0  ·  结构通过",
+          "household  v1.0.0  ·  结构通过",
+          "work_and_trade  v1.2.0  ·  结构通过"
+        ],
+        "Window": "(x:80.00, y:80.00, width:800.00, height:650.00)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\unity_hub\\NPCsystem"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

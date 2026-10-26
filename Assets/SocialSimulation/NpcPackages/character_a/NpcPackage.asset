@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7080d0fd32360f2479f15884ecf30a1f, type: 3}
+  m_Name: NpcPackage
+  m_EditorClassIdentifier: SocialSimulation.Authoring::SocialSimulation.Authoring.NpcPackageAsset
+  packageId: npc.character_a
+  version: 1.0.0
+  characterPrefab: {fileID: 685583476798235975, guid: abdf12dc3ac32a04b99248e34849c440, type: 3}
+  humanoidAvatar: {fileID: 9000000, guid: 3f7968e2de9b7ed4587e9911aa6254cd, type: 3}
+  animatorController: {fileID: 9100000, guid: ad1e1c55c7079e546911d113de6fddc1, type: 2}
+  body:
+    Id: npc.character_a:body.generic
+    Rig: Generic
+    HeightMeters: 1.7
+    RadiusMeters: 0.3
+    WalkMetersPerSecond: 1.4
+    RunMetersPerSecond: 3
+  capabilities:
+  - Id: locomotion.walk
+    ExecutorId: navmesh.move
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  - Id: locomotion.run
+    ExecutorId: navmesh.move
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  - Id: posture.sit
+    ExecutorId: animator.present
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  - Id: communication.speak
+    ExecutorId: animator.present
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  - Id: work.perform
+    ExecutorId: animator.present
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  - Id: trade.exchange
+    ExecutorId: animator.present
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  - Id: object.carry
+    ExecutorId: animator.present
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  - Id: activity.group
+    ExecutorId: animator.present
+    RequiresPresentation: 1
+    BodyConstraint: Any
+  animationBindings:
+  - Id: npc.character_a:locomotion.walk
+    CapabilityId: locomotion.walk
+    AnimatorState: Walk
+    Loop: 1
+    RootMotion: 0
+    ExpectedSeconds: 0
+  - Id: npc.character_a:locomotion.run
+    CapabilityId: locomotion.run
+    AnimatorState: Run
+    Loop: 1
+    RootMotion: 0
+    ExpectedSeconds: 0
+  - Id: npc.character_a:posture.sit
+    CapabilityId: posture.sit
+    AnimatorState: Sit
+    Loop: 1
+    RootMotion: 0
+    ExpectedSeconds: 0
+  - Id: npc.character_a:communication.speak
+    CapabilityId: communication.speak
+    AnimatorState: Talk
+    Loop: 1
+    RootMotion: 0
+    ExpectedSeconds: 0
+  - Id: npc.character_a:work.perform
+    CapabilityId: work.perform
+    AnimatorState: Work
+    Loop: 1
+    RootMotion: 0
+    ExpectedSeconds: 0
+  - Id: npc.character_a:trade.exchange
+    CapabilityId: trade.exchange
+    AnimatorState: Trade
+    Loop: 0
+    RootMotion: 0
+    ExpectedSeconds: 0
+  - Id: npc.character_a:object.carry
+    CapabilityId: object.carry
+    AnimatorState: Carry
+    Loop: 1
+    RootMotion: 0
+    ExpectedSeconds: 0
+  - Id: npc.character_a:activity.group
+    CapabilityId: activity.group
+    AnimatorState: Group
+    Loop: 1
+    RootMotion: 0
+    ExpectedSeconds: 0
+  actions: []

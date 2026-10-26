@@ -1,0 +1,97 @@
+.observer-root {
+    flex-grow: 1;
+    background-color: rgb(29, 34, 43);
+    color: rgb(226, 234, 240);
+}
+.observer-header {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: rgb(38, 48, 62);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(67, 86, 103);
+}
+.observer-title {
+    font-size: 17px;
+    -unity-font-style: bold;
+}
+.observer-subtitle {
+    margin-top: 4px;
+    color: rgb(168, 190, 204);
+    white-space: normal;
+}
+.observer-controls {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.observer-controls > * {
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+.observer-control {
+    min-width: 170px;
+    flex-grow: 1;
+}
+.observer-filter {
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+}
+.observer-filter > * {
+    flex-grow: 0;
+    margin-right: 10px;
+}
+#selection-status {
+    margin-top: 4px;
+    white-space: normal;
+}
+.observer-scroll {
+    flex-grow: 1;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+.observer-card {
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background-color: rgb(40, 49, 60);
+    border-left-width: 3px;
+    border-left-color: rgb(87, 161, 192);
+}
+.observer-row {
+    margin-top: 4px;
+    margin-left: 9px;
+    white-space: normal;
+}
+.observer-empty {
+    color: rgb(155, 171, 182);
+}
+.observer-error {
+    color: rgb(248, 166, 149);
+}
+.observer-note {
+    margin-top: 5px;
+    margin-left: 9px;
+    color: rgb(183, 205, 216);
+    white-space: normal;
+}
+.observer-knowledge-filter {
+    margin-top: 7px;
+    margin-left: 9px;
+    flex-grow: 1;
+}
+.observer-detail {
+    margin-left: 20px;
+    color: rgb(183, 205, 216);
+}

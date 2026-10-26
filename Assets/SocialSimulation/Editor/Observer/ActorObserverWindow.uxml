@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="observer-root" class="observer-root">
+        <ui:VisualElement class="observer-header">
+            <ui:Label text="社会模拟 · 运行观察" class="observer-title" />
+            <ui:Label name="world-status" text="等待运行中的世界" class="observer-subtitle" />
+        </ui:VisualElement>
+        <ui:VisualElement name="controls" class="observer-controls">
+            <ui:VisualElement name="actor-picker" class="observer-control" />
+            <ui:TextField name="actor-id" label="NPC ID" class="observer-control" />
+            <ui:Button name="select-npc" text="使用当前选中 NPC" />
+            <ui:Button name="pause" text="暂停" />
+            <ui:Button name="step" text="单步" />
+            <ui:VisualElement name="time-scale" class="observer-control" />
+        </ui:VisualElement>
+        <ui:VisualElement class="observer-filter">
+            <ui:TextField name="event-filter" label="事件类型筛选" />
+            <ui:Label name="selection-status" text="请选择 NPC" />
+        </ui:VisualElement>
+        <ui:ScrollView name="sections" class="observer-scroll">
+            <ui:Foldout text="身份、组织与多重角色" value="true" class="observer-card"><ui:VisualElement name="identity-rows" /></ui:Foldout>
+            <ui:Foldout text="需求与情绪" value="true" class="observer-card"><ui:VisualElement name="needs-rows" /></ui:Foldout>
+            <ui:Foldout name="knowledge-section" text="个人知识与信息来源" value="true" class="observer-card">
+                <ui:Label text="这里显示该 NPC 收到的陈述，可能不准确；未获知不代表事实为假。" class="observer-note" />
+                <ui:TextField name="knowledge-filter" label="知识筛选" tooltip="筛选主题、对象、陈述、来源、渠道或原始事件 ID" class="observer-knowledge-filter" />
+                <ui:Label name="knowledge-summary" class="observer-note" />
+                <ui:VisualElement name="knowledge-rows" />
+            </ui:Foldout>
+            <ui:Foldout text="目标、候选评分与拒绝原因" value="true" class="observer-card"><ui:VisualElement name="decision-rows" /></ui:Foldout>
+            <ui:Foldout text="行为图、动作阶段与失败" value="true" class="observer-card"><ui:VisualElement name="graph-rows" /></ui:Foldout>
+            <ui:Foldout text="资源、等待与会话" value="true" class="observer-card"><ui:VisualElement name="resource-rows" /></ui:Foldout>
+            <ui:Foldout text="世界诊断：已知规范标记、证据与违规" value="true" class="observer-card"><ui:VisualElement name="norm-rows" /></ui:Foldout>
+            <ui:Foldout text="世界诊断：近期因果事件" value="true" class="observer-card"><ui:VisualElement name="event-rows" /></ui:Foldout>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

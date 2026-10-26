@@ -1,0 +1,2505 @@
+﻿{
+    "status":  "completed",
+    "duration":  5.59,
+    "summary":  {
+                    "total":  356,
+                    "passed":  356,
+                    "failed":  0,
+                    "skipped":  0,
+                    "inconclusive":  0
+                },
+    "results":  [
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.BareDependenciesSurviveAuthoringAndStillRequireRegistration(\"NPC\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0209204,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.BareDependenciesSurviveAuthoringAndStillRequireRegistration(\"Region\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0098243,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.BareDependenciesSurviveAuthoringAndStillRequireRegistration(\"Domain\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0001347,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.CatalogHonorsSerializedVersionDependenciesAndRejectsWrongInstalledVersion(\"NPC\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0114296,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.CatalogHonorsSerializedVersionDependenciesAndRejectsWrongInstalledVersion(\"Region\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0107031,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.CatalogHonorsSerializedVersionDependenciesAndRejectsWrongInstalledVersion(\"Domain\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0001966,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.CombinedScenarioUsesValidatedNpcAndRegionDependenciesAndRejectsDivergentDomainReference",
+                        "Status":  "Passed",
+                        "Duration":  0.0229031,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.EditorRegistrationPreviewUsesFullCatalogAndDoesNotCommitRejectedCandidate",
+                        "Status":  "Passed",
+                        "Duration":  0.0002184,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.MalformedAuthoredVersionRangeIsRejectedByActualCatalogRegistration(\"NPC\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0102457,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.MalformedAuthoredVersionRangeIsRejectedByActualCatalogRegistration(\"Region\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0100867,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Content.Tests.ContentPackageDependencyTests.MalformedAuthoredVersionRangeIsRejectedByActualCatalogRegistration(\"Domain\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0001272,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.CancelInvalidatesLateCallbackAndReleasesLocalToken",
+                        "Status":  "Passed",
+                        "Duration":  0.0004119,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.ClosingTargetRegionFailsActionWithoutPermanentlyDisablingItsSlot",
+                        "Status":  "Passed",
+                        "Duration":  0.0006247,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.CompositeScopeAndGraphWaitResumeTogether",
+                        "Status":  "Passed",
+                        "Duration":  0.0007497,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.CompositeSeatSurvivesLeafAndReleasesWhenGraphFinishes",
+                        "Status":  "Passed",
+                        "Duration":  0.0002116,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.DestroyedResourceTargetFailsBeforeAdapterCanReportSuccess",
+                        "Status":  "Passed",
+                        "Duration":  0.0001493,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.ExitHookExceptionStillReleasesToken",
+                        "Status":  "Passed",
+                        "Duration":  0.0001749,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.GraphCallbackExceptionCancelsCompositeResource",
+                        "Status":  "Passed",
+                        "Duration":  0.0001542,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.InvalidTargetAtRestoreCancelsActionAndReleasesOwnedToken",
+                        "Status":  "Passed",
+                        "Duration":  0.000367,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.JsonRoundTripRestoresOptionalNullFieldsAsEmptyStrings",
+                        "Status":  "Passed",
+                        "Duration":  0.0004215,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.LegacyRecursiveCheckpointIsRejectedAndReleasesOwnedToken",
+                        "Status":  "Passed",
+                        "Duration":  0.0003102,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.MissingActorCancelsRunningActionAndReportsUnknownActor",
+                        "Status":  "Passed",
+                        "Duration":  0.0001033,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.MissingExecutorProducesSpecificFailureDiagnostic",
+                        "Status":  "Passed",
+                        "Duration":  8.62E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.NonFiniteActionTimeoutIsRejectedBeforeReservingResources",
+                        "Status":  "Passed",
+                        "Duration":  9.95E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.PresentationReceivesEnterPhaseCancelAndRestoreWithoutControllingLogic",
+                        "Status":  "Passed",
+                        "Duration":  0.0003614,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.RejectedCheckpointCannotReleaseAnotherActorsScope",
+                        "Status":  "Passed",
+                        "Duration":  0.0004506,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.RestorePreservesCommittedEffectKeys",
+                        "Status":  "Passed",
+                        "Duration":  0.0002791,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.RestoreRejectsActionRevisionThatDiffersFromCompiledSubgraph",
+                        "Status":  "Passed",
+                        "Duration":  0.0002866,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.RestoreRejectsChangedTokenOwnerWithoutReleasingForeignScope",
+                        "Status":  "Passed",
+                        "Duration":  0.0002841,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.RunningActionRestoresWithTokenAndInvalidatesOldCallbackGeneration",
+                        "Status":  "Passed",
+                        "Duration":  0.0003497,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.SameActionIdAtDifferentNodesCreatesDistinctInstancesAndEffects",
+                        "Status":  "Passed",
+                        "Duration":  0.0001215,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.SameActionLifecycleServesCareWagesPurchaseAndClubActivity",
+                        "Status":  "Passed",
+                        "Duration":  0.0002875,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.SessionTransferOutlivesActionAndScopeCleanup",
+                        "Status":  "Passed",
+                        "Duration":  0.0001016,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.ActionLifecycleTests.TimeoutUsesSimulationClockAndCleansUp",
+                        "Status":  "Passed",
+                        "Duration":  0.0001212,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.AcceptedDutyBecomesUnfulfilledOnlyAfterCompletionGraceTick",
+                        "Status":  "Passed",
+                        "Duration":  0.0002692,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.CascadeBudgetPersistsAcrossTicksAndPauseFreezesTime",
+                        "Status":  "Passed",
+                        "Duration":  0.0001173,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.CourseCanStartWithoutLateStudentAndJoinLater",
+                        "Status":  "Passed",
+                        "Duration":  7.64E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.DecisionTraceOwnsCandidateCopiesAndRejectsDuplicateIds",
+                        "Status":  "Passed",
+                        "Duration":  8.34E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.DeclinedInvitationFreesCapacityButUnstartedSessionCannotComplete",
+                        "Status":  "Passed",
+                        "Duration":  0.0001915,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.DifferentNpcPackagesCanShareCompatibleSemanticCapabilities",
+                        "Status":  "Passed",
+                        "Duration":  0.0001266,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.DutyCanBeAcceptedDuringTravelLeadWhenScopedRoleStartsAtDutyTime",
+                        "Status":  "Passed",
+                        "Duration":  0.0002283,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.ExchangeIsAtomicAndSnapshotRestoresOwnershipAndDeduplication",
+                        "Status":  "Passed",
+                        "Duration":  0.0006944,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.LastSeatHasOneOwnerAndScopeTransferSurvivesLeafCancellation",
+                        "Status":  "Passed",
+                        "Duration":  0.0001744,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.LeavingJobRevokesScopedAuthorityButKeepsFriendship",
+                        "Status":  "Passed",
+                        "Duration":  0.0001299,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.PackageBatchFailureLeavesExistingRegistryUntouched",
+                        "Status":  "Passed",
+                        "Duration":  0.000185,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.PackageBatchResolvesDependenciesAndRejectsChangedSameVersion",
+                        "Status":  "Passed",
+                        "Duration":  0.0001161,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.PackageRegistrationIsAtomicAndIdempotent",
+                        "Status":  "Passed",
+                        "Duration":  5.83E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.RegionInstanceIdentityCombinesInstanceAndLocalPoint",
+                        "Status":  "Passed",
+                        "Duration":  2.9E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.RegionPackageRegistersZoneHierarchyAndRejectsSameVersionMutation",
+                        "Status":  "Passed",
+                        "Duration":  6.83E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.SameSeedKeepsDecisionStreamIndependentPerAgent",
+                        "Status":  "Passed",
+                        "Duration":  5.46E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.ScheduleRejectsMissingScopedRoleAndMarksUnacceptedDutyMissed",
+                        "Status":  "Passed",
+                        "Duration":  9.87E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.SharedScheduleExplainsCrossDomainConflictAndRestoresDecision",
+                        "Status":  "Passed",
+                        "Duration":  0.0006043,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.TransactionIdCannotBeReusedForAnotherTransfer",
+                        "Status":  "Passed",
+                        "Duration":  9.5E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.TransferReceiptTreatsOnlyOptionalCounterResourceAsEmptyAfterSerialization",
+                        "Status":  "Passed",
+                        "Duration":  0.0003289,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreBehaviorTests.WitnessEvidenceIsRequiredBeforeViolationAndResponse",
+                        "Status":  "Passed",
+                        "Duration":  8.61E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.AtomicAcquireIsIdempotentAndRejectsInvalidLeaseWithoutPartialTokens",
+                        "Status":  "Passed",
+                        "Duration":  0.0001746,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.CancelScopeCannotGrantItsOwnPendingRequestDuringCleanup",
+                        "Status":  "Passed",
+                        "Duration":  4.82E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.CompletedActivityRejectsLateResourceTransfer",
+                        "Status":  "Passed",
+                        "Duration":  4.25E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.DelayedCausalEventsPreserveBudgetAcrossIdleTicksAndSnapshot",
+                        "Status":  "Passed",
+                        "Duration":  0.0002218,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.DelegatedAuthorityExpiresWithAncestorAndCannotBeRenewedByDelegation",
+                        "Status":  "Passed",
+                        "Duration":  8.79E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.EffectIdempotencyAlsoRejectsReentrantCommit",
+                        "Status":  "Passed",
+                        "Duration":  2.83E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.EffectServicesInheritCauseForEventsSchedulesAndNestedCommands",
+                        "Status":  "Passed",
+                        "Duration":  7.78E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.ExplicitNormOverrideNeedsKnowledgeForDecisionButPreventsOldPunishment",
+                        "Status":  "Passed",
+                        "Duration":  7.06E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.JsonWorldRoundTripCannotResetDelayedCauseBudget",
+                        "Status":  "Passed",
+                        "Duration":  0.0003939,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.JsonWorldRoundTripKeepsOptionalNormJurisdictionAndPublicationIdempotency",
+                        "Status":  "Passed",
+                        "Duration":  0.0004714,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.JsonWorldRoundTripKeepsUnparentedSchedulesIndependentAndCausalSchedulesLinked",
+                        "Status":  "Passed",
+                        "Duration":  0.0005438,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.LeavingSocialActivityBelowMinimumCancelsAndReleasesRemainingTokens",
+                        "Status":  "Passed",
+                        "Duration":  5.6E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.MemoryCapacityKeepsProtectedEntriesAndDoesNotAliasIncomingReports",
+                        "Status":  "Passed",
+                        "Duration":  3.43E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.NonFiniteClockInputIsRejectedAndSnapshotsRequireTickBoundary",
+                        "Status":  "Passed",
+                        "Duration":  0.000159,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.NormJurisdictionAndPublishedVersionRemainIndependentFromTemplateEdits",
+                        "Status":  "Passed",
+                        "Duration":  0.000351,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.RegisteredPackageFingerprintIsCultureIndependent",
+                        "Status":  "Passed",
+                        "Duration":  7.7E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.RemoveAgentKeepsOtherMembersSharedScopeResourcesAndCancelsItsWaiter",
+                        "Status":  "Passed",
+                        "Duration":  4.48E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.RevokingOneRoleRevokesOnlyItsBoundAuthorityAndAllDelegates",
+                        "Status":  "Passed",
+                        "Duration":  4.52E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.RootEffectBudgetAndDeduplicationSurviveSnapshot",
+                        "Status":  "Passed",
+                        "Duration":  0.0001811,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.ScheduleRoleQualificationIsRestrictedToItsCollectiveAndObject",
+                        "Status":  "Passed",
+                        "Duration":  6.29E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.SnapshotRetainsRuntimeConfigurationAndOwnsRestoredEventData",
+                        "Status":  "Passed",
+                        "Duration":  0.0002123,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.SystemsCanDetachDuringTickWithoutCallingRemovedOrNewlyAddedSystems",
+                        "Status":  "Passed",
+                        "Duration":  5.94E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.ThrowingEffectRestoresOuterCauseAndDoesNotLeakToExternalEvents",
+                        "Status":  "Passed",
+                        "Duration":  6.3E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.CoreInvariantRegressionTests.WaitersKeepTheirRequestedLeaseAcrossReleaseAndSnapshot",
+                        "Status":  "Passed",
+                        "Duration":  0.0003885,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GoalReevaluationTests.ExpiringKnowledgeTriggersReevaluationSoWaitingAgentsRetryAlone",
+                        "Status":  "Passed",
+                        "Duration":  0.0006908,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GoalReevaluationTests.KnowledgeChangeRunsTheRegisteredSelectorOnTheNextTickExactlyOnce",
+                        "Status":  "Passed",
+                        "Duration":  0.0005526,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GoalReevaluationTests.PendingReevaluationSurvivesWorldRestoreAndSkipsDepartedAgents",
+                        "Status":  "Passed",
+                        "Duration":  0.0011658,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GoalReevaluationTests.RulesMatchAgentTopicAndSubjectWithoutLeakingAcrossRegistrations",
+                        "Status":  "Passed",
+                        "Duration":  0.000411,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GoalReevaluationTests.UnregisteredReplacedAndInvalidRulesBehaveExplicitly",
+                        "Status":  "Passed",
+                        "Duration":  0.0001822,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.AcceptanceRechecksRevokedIssuerAndLeftAssignee",
+                        "Status":  "Passed",
+                        "Duration":  0.0001739,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.AgreementRequiresEveryDistinctPartyAndAuthorizedCollectiveConsent",
+                        "Status":  "Passed",
+                        "Duration":  7.15E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.BreachingOneObligationDoesNotEraseOrAccelerateOtherObligations",
+                        "Status":  "Passed",
+                        "Duration":  0.0010459,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.CorruptQuantityOrFabricatedActivationIsRejectedOnRestore",
+                        "Status":  "Passed",
+                        "Duration":  0.0014559,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.DebtorCannotSelfCertifyPerformanceAndReceiptIsIdempotent",
+                        "Status":  "Passed",
+                        "Duration":  7.22E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.DissolutionCancelsOrganizationalWorkButPreservesDebt",
+                        "Status":  "Passed",
+                        "Duration":  0.0001674,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.ExactDeadlineIsInclusiveAndLegacyCommitmentsRemainCompatible",
+                        "Status":  "Passed",
+                        "Duration":  0.0002547,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.GoalSwitchAndAgentRemovalPreserveDebtAndLatePaymentRetainsBreachHistory",
+                        "Status":  "Passed",
+                        "Duration":  0.0012356,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.InvalidOfferIsAtomicAndDoesNotConsumeIds",
+                        "Status":  "Passed",
+                        "Duration":  7.56E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.MetricsComeFromTasksAndTransactionLedgerIncludingDeduplication",
+                        "Status":  "Passed",
+                        "Duration":  0.0001212,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.OrganizationAuthorityCreatesARequestAndPreservesMemberChoice",
+                        "Status":  "Passed",
+                        "Duration":  0.0001165,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.PartialPerformanceAndConsentSurviveRealJsonSerialization",
+                        "Status":  "Passed",
+                        "Duration":  0.0027538,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.RealTransferQuantityCannotBeDoubleCountedAcrossAgreements",
+                        "Status":  "Passed",
+                        "Duration":  0.0015905,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.RemovingAgentClosesAcceptedOrganizationTaskBeforeAnyNextTick",
+                        "Status":  "Passed",
+                        "Duration":  0.0008832,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.ReplacementPolicyGetsCopiesAndCanVetoTheRequest",
+                        "Status":  "Passed",
+                        "Duration":  0.0001113,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.RequestRetrySurvivesJsonAndRejectsChangedPayload",
+                        "Status":  "Passed",
+                        "Duration":  0.0007012,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.ScopedGrantCannotIssueTaskOutsideItsObject",
+                        "Status":  "Passed",
+                        "Duration":  0.0001119,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.TerminationRequiresAllPartiesAndKeepsPartialFulfillment",
+                        "Status":  "Passed",
+                        "Duration":  0.0020051,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.TransferBeforeConsentCannotBeReusedEvenWithinTheSameTick",
+                        "Status":  "Passed",
+                        "Duration":  6.73E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.GovernanceAgreementTests.UnacceptedProposalExpiresWithoutCreatingABreach",
+                        "Status":  "Passed",
+                        "Duration":  0.0007993,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.ConditionsAndEvidenceInTracesAreOwnedCopiesAndInvalidConditionsReject",
+                        "Status":  "Passed",
+                        "Duration":  0.0003594,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.DifferentNpcKnowledgeChangesGoalAndRelayChangesRecipientChoice",
+                        "Status":  "Passed",
+                        "Duration":  0.0001933,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.EqualAgeAndConfidenceContradictionsUseUnknownPolicy",
+                        "Status":  "Passed",
+                        "Duration":  0.0001324,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.ExpiredProtectedNoticeBecomesUnknownForChoiceEvenWhenMemoryIsRetained",
+                        "Status":  "Passed",
+                        "Duration":  0.000178,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.JsonWorldRestorePreservesKnowledgeProvenanceAndNextChoice",
+                        "Status":  "Passed",
+                        "Duration":  0.0013317,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.MaximumAgeAndConfidenceDecayAreReevaluatedAtDecisionTime",
+                        "Status":  "Passed",
+                        "Duration":  0.0002077,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.NewerOriginalReportWinsEvenWhenAnOlderClosureIsRelayedLater",
+                        "Status":  "Passed",
+                        "Duration":  0.0001881,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.UnknownPolicyIsExplicitAndCanRejectOrPenalizeWithoutInventingFalseFact",
+                        "Status":  "Passed",
+                        "Duration":  6.12E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeDecisionTests.WeakReportsAndWrongOriginalSourcesDoNotOverrideEligibleKnowledge",
+                        "Status":  "Passed",
+                        "Duration":  0.0001469,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.CapacityEvictsLowestSalienceUnprotectedInformation",
+                        "Status":  "Passed",
+                        "Duration":  0.000138,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.ChannelsAndPersonalQueriesReturnIndependentCopies",
+                        "Status":  "Passed",
+                        "Duration":  0.0001027,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.ConfidentialInformationCannotBeLaunderedThroughPublicChannel",
+                        "Status":  "Passed",
+                        "Duration":  0.0002432,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.ConversationRequiresSameNonemptyPlaceWhileRadioIsExplicitlyRemote",
+                        "Status":  "Passed",
+                        "Duration":  0.0001077,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.CooldownCapacityCannotBeEvictedToBypassOutstandingLimits",
+                        "Status":  "Passed",
+                        "Duration":  0.0001929,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.CooldownUsesSimulationTimeAndCannotBeBypassedBySwitchingChannel",
+                        "Status":  "Passed",
+                        "Duration":  0.0001743,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.CyclicRumorKeepsOneOriginalEventAndCannotAmplifyConfidenceOrCreateEvidence",
+                        "Status":  "Passed",
+                        "Duration":  0.0001662,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.DifferentEventsRemainDistinctEvenWhenTheirTopicAndStatementAreEqual",
+                        "Status":  "Passed",
+                        "Duration":  9.79E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.HigherQualityReportCanReplaceWeakerSameOriginWithoutCreatingAnotherItem",
+                        "Status":  "Passed",
+                        "Duration":  0.0001536,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.IndependentTransmissionPathsOfSameEventAreNotIndependentEvidence",
+                        "Status":  "Passed",
+                        "Duration":  0.0001415,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.InvalidNumericValuesCannotCreateImmortalOrAmplifyingInformation",
+                        "Status":  "Passed",
+                        "Duration":  8.94E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.LowConfidenceKnowledgeIsForgottenBeforeRetentionDeadline",
+                        "Status":  "Passed",
+                        "Duration":  0.0002358,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.MemberChannelsExcludeOutsidersAndImmediatelyRespectLeaving",
+                        "Status":  "Passed",
+                        "Duration":  0.0001877,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.ObservationRequiresCanonicalRecentEventAndCurrentLogicalPlace",
+                        "Status":  "Passed",
+                        "Duration":  0.0001176,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.OfficialChannelPublicationAndRelayNeedLiveScopedAuthority",
+                        "Status":  "Passed",
+                        "Duration":  0.0001364,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.ProtectedKnowledgeSurvivesForgettingButCannotGrowPastCapacity",
+                        "Status":  "Passed",
+                        "Duration":  0.0001733,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.RelayDepthIsFiniteAndUnknownInformationCannotBeRelayed",
+                        "Status":  "Passed",
+                        "Duration":  9.05E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.RelayDoesNotResetDecayOrExpiration",
+                        "Status":  "Passed",
+                        "Duration":  0.0002031,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.RemovingAgentClearsOwnKnowledgeAndCooldownButRetainsOthersSourceHistory",
+                        "Status":  "Passed",
+                        "Duration":  0.0009303,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.RepeatedSystemNoticeCannotRenewAgeConfidenceOrExpiration",
+                        "Status":  "Passed",
+                        "Duration":  0.0001533,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.RoleChannelsRequireChannelAssignmentAndCurrentMembershipAndRoleWindow",
+                        "Status":  "Passed",
+                        "Duration":  9.43E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.RoleInformationChannelPreservesAssignedObjectScope",
+                        "Status":  "Passed",
+                        "Duration":  7.08E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.SnapshotCaptureAndRestoreOwnTheirDataAndInvalidRestoreIsAtomic",
+                        "Status":  "Passed",
+                        "Duration":  0.0002206,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.SystemNoticeRequiresRegisteredChannelAndCannotInventAnActiveSource",
+                        "Status":  "Passed",
+                        "Duration":  9.55E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.TickTimeForgettingEmitsTypedEventsWhileProtectedMemoriesStaySilent",
+                        "Status":  "Passed",
+                        "Duration":  0.0001566,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.UnobservedWorldEventsAndNormsAreNotAutomaticallyPersonalKnowledge",
+                        "Status":  "Passed",
+                        "Duration":  7.31E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.KnowledgeTests.WholeWorldJsonRoundTripPreservesProvenanceAndOutstandingCooldown",
+                        "Status":  "Passed",
+                        "Duration":  0.0011463,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.NormObservationProvenanceTests.CanonicalEventStillRequiresRealSubjectColocationAndFiniteConfidence",
+                        "Status":  "Passed",
+                        "Duration":  0.0002183,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.NormObservationProvenanceTests.ForeignOrHistoricalEventCannotBeObservedAsCurrentEvidence",
+                        "Status":  "Passed",
+                        "Duration":  0.0002153,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.NormObservationProvenanceTests.UnknownOrAlteredEventCannotCreatePunishableEvidence",
+                        "Status":  "Passed",
+                        "Duration":  0.0001547,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.AllPublicValueEnumerationPathsReturnOwnedManifestCopies",
+                        "Status":  "Passed",
+                        "Duration":  0.0001039,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.BatchOrdersRequiredCapabilityProviderBeforeItsConsumer(False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001452,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.BatchOrdersRequiredCapabilityProviderBeforeItsConsumer(True)",
+                        "Status":  "Passed",
+                        "Duration":  5.33E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.CallerAndPublicViewAliasesCannotChangeRegisteredVersionsOrRequirements",
+                        "Status":  "Passed",
+                        "Duration":  0.000128,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"1\",\"1.0.0\",True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001432,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"1.2\",\"1.2.0\",True)",
+                        "Status":  "Passed",
+                        "Duration":  9.81E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"1.2.3\",\"1.2.3\",True)",
+                        "Status":  "Passed",
+                        "Duration":  9.44E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"1\",\"1.1\",False)",
+                        "Status":  "Passed",
+                        "Duration":  6.92E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[1.2,2)\",\"1.1.99\",False)",
+                        "Status":  "Passed",
+                        "Duration":  9.78E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[1.2,2)\",\"1.2.0\",True)",
+                        "Status":  "Passed",
+                        "Duration":  9.22E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[1.2,2)\",\"1.99.99\",True)",
+                        "Status":  "Passed",
+                        "Duration":  7.21E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[1.2,2)\",\"2.0\",False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0003733,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[2,10)\",\"9\",True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001344,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[2,10)\",\"10\",False)",
+                        "Status":  "Passed",
+                        "Duration":  9.65E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[1.2,)\",\"22.7\",True)",
+                        "Status":  "Passed",
+                        "Duration":  7.94E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[1.2,)\",\"1.1\",False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001017,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"*\",\"release-candidate\",True)",
+                        "Status":  "Passed",
+                        "Duration":  8.83E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DependencyRegistrationUsesNumericBoundariesAndExplicitWildcard(\"[1,2)\",\"release-candidate\",False)",
+                        "Status":  "Passed",
+                        "Duration":  7.32E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DomainConversionPreservesSchemaAndBothDependencyFormsWithIndependentCopies",
+                        "Status":  "Passed",
+                        "Duration":  7.67E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DuplicateDependencyIdsAcrossEitherDeclarationAreRejected(0)",
+                        "Status":  "Passed",
+                        "Duration":  0.0002218,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DuplicateDependencyIdsAcrossEitherDeclarationAreRejected(1)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001118,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.DuplicateDependencyIdsAcrossEitherDeclarationAreRejected(2)",
+                        "Status":  "Passed",
+                        "Duration":  0.0005674,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.FingerprintIncludesEveryRequirementAndIsIndependentOfDeclarationOrder",
+                        "Status":  "Passed",
+                        "Duration":  0.0006734,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.HeldPackageViewSeesLaterRegistrationWhileItsReadValuesRemainIndependent",
+                        "Status":  "Passed",
+                        "Duration":  0.0002252,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.LegacyOpaqueVersionAndOriginalFingerprintRemainCompatible",
+                        "Status":  "Passed",
+                        "Duration":  0.0002941,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.LegacySchemaCannotSilentlyIgnoreEvenWildcardVersionRequirements",
+                        "Status":  "Passed",
+                        "Duration":  8.96E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"0\",True)",
+                        "Status":  "Passed",
+                        "Duration":  0.000125,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"1\",True)",
+                        "Status":  "Passed",
+                        "Duration":  9.87E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"1.2\",True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001683,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"1.2.3\",True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001485,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"4294967295.2.3\",True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001196,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"opaque\",False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001324,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"1.2.3.4\",False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001611,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"1.2-beta\",False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001164,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"1.2+build\",False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001096,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"-1.2\",False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001117,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"1..2\",False)",
+                        "Status":  "Passed",
+                        "Duration":  8.61E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"4294967296\",False)",
+                        "Status":  "Passed",
+                        "Duration":  8.03E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\" 1.2\",False)",
+                        "Status":  "Passed",
+                        "Duration":  4.44E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SchemaTwoVersionFormatIsEnforcedBeforeContentCommit(\"佟.佗\",False)",
+                        "Status":  "Passed",
+                        "Duration":  3.43E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.SelfMissingAndCyclicDependenciesCannotPartiallyRegister",
+                        "Status":  "Passed",
+                        "Duration":  4.4E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0001272,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(null)",
+                        "Status":  "Passed",
+                        "Duration":  4.89E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"^1.2\")",
+                        "Status":  "Passed",
+                        "Duration":  5.26E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"~1.2\")",
+                        "Status":  "Passed",
+                        "Duration":  4.84E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"\u003e=1.2 \u003c2\")",
+                        "Status":  "Passed",
+                        "Duration":  4.76E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"[1,2]\")",
+                        "Status":  "Passed",
+                        "Duration":  4.87E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"(1,2)\")",
+                        "Status":  "Passed",
+                        "Duration":  4.74E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"[,2)\")",
+                        "Status":  "Passed",
+                        "Duration":  4.99E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"[2,1)\")",
+                        "Status":  "Passed",
+                        "Duration":  5.28E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"[1,1.0)\")",
+                        "Status":  "Passed",
+                        "Duration":  6.86E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.UnsupportedOrEmptyRangesFailExplicitlyInsteadOfBecomingWildcards(\"[1,2,3)\")",
+                        "Status":  "Passed",
+                        "Duration":  4.94E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.VersionComparisonAndFingerprintsDoNotDependOnCurrentCulture",
+                        "Status":  "Passed",
+                        "Duration":  0.0002158,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PackageDependencyVersionTests.VersionMismatchInBatchLeavesAllExistingPackagesAndContentUntouched",
+                        "Status":  "Passed",
+                        "Duration":  9.97E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PersonalityArchetypeTests.InvalidMeansSpreadAndCouplingCannotBeSampled",
+                        "Status":  "Passed",
+                        "Duration":  8.84E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PersonalityArchetypeTests.SamplingIsStablePerAgentAndDoesNotMutateTheTemplate",
+                        "Status":  "Passed",
+                        "Duration":  3.87E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.PersonalityArchetypeTests.SharedSocialAndDutyFactorsProduceCorrelatedTraits",
+                        "Status":  "Passed",
+                        "Duration":  0.0010406,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.CalendarAndSetOrderingDoesNotChangePackageFingerprint",
+                        "Status":  "Passed",
+                        "Duration":  0.0001733,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.ClosingBoundaryAppliesPositiveNegativeAndLargeClockOffsetsWithoutOverflow",
+                        "Status":  "Passed",
+                        "Duration":  3.03E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.ClosingBoundaryDetectsEntireSkippedCyclesAndIncludesOnlyTheEndingBoundary",
+                        "Status":  "Passed",
+                        "Duration":  2.69E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.ClosingBoundaryRejectsInvalidTimeAndCalendarInsteadOfHidingConfigurationErrors",
+                        "Status":  "Passed",
+                        "Duration":  8.98E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.ClosingBoundarySkipsAdjacentAndOvernightContinuousOpenIntervals",
+                        "Status":  "Passed",
+                        "Duration":  2.51E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.DeepCopyAndFingerprintIncludeEveryRegionPolicyField",
+                        "Status":  "Passed",
+                        "Duration":  0.0009637,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.EvaluationUsesAuthoritativePlaceAndExplainsBindingFailures",
+                        "Status":  "Passed",
+                        "Duration":  7.96E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.ExplicitRequirementsAreCombinedAndCannotUseRolesFromAnotherCollective",
+                        "Status":  "Passed",
+                        "Duration":  5.45E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.InvalidMetadataRejectsRegistrationWithoutChangingExistingRegistry",
+                        "Status":  "Passed",
+                        "Duration":  0.0001326,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.LegacyDefaultsAllowEntryWhileCapacityDoesNotDoubleCountResidents",
+                        "Status":  "Passed",
+                        "Duration":  4.95E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.OptionalLocalBoundsIncludeTheirFacesAndRejectNonfiniteCoordinates",
+                        "Status":  "Passed",
+                        "Duration":  1.75E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.OwnerMembershipAndRoleRequireActiveMembershipCorrectScopeAndValidTime",
+                        "Status":  "Passed",
+                        "Duration":  5.82E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.RegionPolicyTests.PeriodicOpeningUsesHalfOpenIntervalsAndExplicitOvernightSegments",
+                        "Status":  "Passed",
+                        "Duration":  2.5E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.SaveSchemaVersionTests.SnapshotRejectsPriorSchemaAfterKnowledgeAndAgreementShapeChange",
+                        "Status":  "Passed",
+                        "Duration":  0.000425,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.SocialDecayTests.DecayedRelationshipsSurviveSnapshotAndContinueFromTheirRecordedDebt",
+                        "Status":  "Passed",
+                        "Duration":  0.0011012,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.SocialDecayTests.ReinforcementResetsTheDriftAndDisabledDecayFreezesValues",
+                        "Status":  "Passed",
+                        "Duration":  0.0030992,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Tests.SocialDecayTests.UnreinforcedRelationshipsDriftTowardNeutralAfterTheGracePeriod",
+                        "Status":  "Passed",
+                        "Duration":  0.0007996,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.CopyingAGroupCopiesMembersWithFreshIdsAndIndependentContents",
+                        "Status":  "Passed",
+                        "Duration":  0.0714941,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.CopyingAnEmptyGroupOrNoteDoesNotRequireExecutionNodes",
+                        "Status":  "Passed",
+                        "Duration":  0.062747,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.DeleteGroupPreservesMembersAndDeleteNoteCleansMembership",
+                        "Status":  "Passed",
+                        "Duration":  0.0740415,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.DraggingGroupPersistsMembersAndOneUndoRestoresPositions",
+                        "Status":  "Passed",
+                        "Duration":  0.1668319,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.EditingBeforeFirstLayoutKeepsAuthoredPositionsFinite",
+                        "Status":  "Passed",
+                        "Duration":  0.04952,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.InvalidCatalogCannotSupplyActionsAndUnknownDomainActionsStayDisabled",
+                        "Status":  "Passed",
+                        "Duration":  0.0527214,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.LayoutMetadataRoundTripsWithoutChangingExecutionRevision",
+                        "Status":  "Passed",
+                        "Duration":  0.3474558,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.NativeGroupAddAndRemoveCallbacksPersistMembership",
+                        "Status":  "Passed",
+                        "Duration":  0.0725527,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.NoteEditingAndGroupMembershipSupportUndoRedo",
+                        "Status":  "Passed",
+                        "Duration":  0.0818534,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.SelectedTemplateFiltersRegisteredActionsAndRejectsUnknownDraftBeforeApply",
+                        "Status":  "Passed",
+                        "Duration":  0.0698021,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.TemplateCompatibilityReportsTheActualMissingDependency(\"missingCapability\",MissingCapability)",
+                        "Status":  "Passed",
+                        "Duration":  0.0018266,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.TemplateCompatibilityReportsTheActualMissingDependency(\"missingExecutor\",MissingExecutor)",
+                        "Status":  "Passed",
+                        "Duration":  0.001499,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.TemplateCompatibilityReportsTheActualMissingDependency(\"wrongRig\",IncompatibleBody)",
+                        "Status":  "Passed",
+                        "Duration":  0.0013143,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.TemplateCompatibilityReportsTheActualMissingDependency(\"requiredAnimation\",MissingRequiredPresentation)",
+                        "Status":  "Passed",
+                        "Duration":  0.0012434,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.TemplateCompatibilityReportsTheActualMissingDependency(\"optionalAnimation\",OptionalPresentationMissing)",
+                        "Status":  "Passed",
+                        "Duration":  0.0011601,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.TemplateCompatibilityReportsTheActualMissingDependency(\"available\",Available)",
+                        "Status":  "Passed",
+                        "Duration":  0.0011727,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphProductTests.TemplateValidationFindsIncompatibleActionsInNestedSubgraphs",
+                        "Status":  "Passed",
+                        "Duration":  0.0020191,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.AssetSaveReloadPreservesIdentifiersEdgesAndParameters",
+                        "Status":  "Passed",
+                        "Duration":  0.1085952,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.BehaviorCheckpointRestoresSequenceAndWaitWithoutRepeatingFinishedAction",
+                        "Status":  "Passed",
+                        "Duration":  0.0008161,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.BehaviorChildOrderUsesExplicitEdgeOrder",
+                        "Status":  "Passed",
+                        "Duration":  0.013252,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.BlackboardNodeUsesStableIdAfterVariableRename",
+                        "Status":  "Passed",
+                        "Duration":  0.0003948,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.BlackboardValuesAreTypedIsolatedAndRestoredPerActor",
+                        "Status":  "Passed",
+                        "Duration":  0.0003012,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.CanvasConnectionAndDisconnectionUpdateDocument",
+                        "Status":  "Passed",
+                        "Duration":  0.0605544,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.EditorClipboardCopiesInternalEdgesWithFreshIds",
+                        "Status":  "Passed",
+                        "Duration":  0.0504607,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.HostBindingFailureKeepsLastPublishedPlan",
+                        "Status":  "Passed",
+                        "Duration":  0.0003801,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.HouseholdAndTradeActionsCompileExecuteAndAppearWithoutCampusPackage",
+                        "Status":  "Passed",
+                        "Duration":  0.0443187,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.InvalidBehaviorCheckpointLeavesInstanceFreshForValidRestore",
+                        "Status":  "Passed",
+                        "Duration":  0.0003826,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.InvalidDraftCannotReplacePreviouslyCompiledPlan",
+                        "Status":  "Passed",
+                        "Duration":  0.00016,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.MissingOrMismatchedBlackboardVariableKeepsPublishedPlan",
+                        "Status":  "Passed",
+                        "Duration":  0.0003201,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.NormQueryDoesNotNeedEventToExist",
+                        "Status":  "Passed",
+                        "Duration":  0.0001372,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.OneCompiledPlanKeepsActorsWaitStateSeparate",
+                        "Status":  "Passed",
+                        "Duration":  0.0001128,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.ReusedSubtreeCallsHaveDistinctExecutionContexts",
+                        "Status":  "Passed",
+                        "Duration":  0.0001825,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.RuleWithEvidenceGateEmitsOnlyWhenObserved",
+                        "Status":  "Passed",
+                        "Duration":  0.0001452,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.SubtreeChangeChangesParentRevisionWithoutParentVersionIncrement",
+                        "Status":  "Passed",
+                        "Duration":  0.0002192,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.ThreeNestedSubtreesRoundTripWithoutSerializationDepthLoss",
+                        "Status":  "Passed",
+                        "Duration":  0.0007451,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.TimeoutCancelsRunningActionAndRetryIsBounded",
+                        "Status":  "Passed",
+                        "Duration":  0.0001884,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.UndoRedoAndReloadPreserveGraphChanges",
+                        "Status":  "Passed",
+                        "Duration":  0.1464439,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.WorkbenchCreatesAndBindsBlackboardVariableThroughInspector",
+                        "Status":  "Passed",
+                        "Duration":  0.1992265,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.WorkbenchParameterEditUndoRedoAndSaveReload",
+                        "Status":  "Passed",
+                        "Duration":  0.2239011,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.GraphRuntimeTests.WorkbenchSubgraphNavigationReturnsToParentWithoutChangingEitherAsset",
+                        "Status":  "Passed",
+                        "Duration":  0.0688974,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.BlackboardGuardIsReadWithoutChangingValues",
+                        "Status":  "Passed",
+                        "Duration":  0.0002916,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.CooldownGuardDoesNotInterruptUntilReady",
+                        "Status":  "Passed",
+                        "Duration":  0.0001801,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.FailedHighActionFallsBackAfterOldBranchWasCancelled",
+                        "Status":  "Passed",
+                        "Duration":  0.0001662,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.FalseGuardDoesNotCancelOrRestartLowerPriorityAction",
+                        "Status":  "Passed",
+                        "Duration":  0.0001539,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.FalseGuardPreservesWaitStartAcrossTicks",
+                        "Status":  "Passed",
+                        "Duration":  0.000157,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.HigherPriorityBranchReleasesOldResourceBeforeStarting(False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0005402,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.HigherPriorityBranchReleasesOldResourceBeforeStarting(True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0003405,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.OptionalReadinessRejectsActionWithoutDisturbingCurrentBranch",
+                        "Status":  "Passed",
+                        "Duration":  0.0001568,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.ReactiveSelectorTests.RestoredRunningBranchCanBePreemptedWithoutLeakingResource",
+                        "Status":  "Passed",
+                        "Duration":  0.0002076,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.DuplicateParameterIsRejectedBeforeCompiledValueCanDifferFromValidatedValue",
+                        "Status":  "Passed",
+                        "Duration":  0.0001692,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.InvalidTimeWindowCannotPublish(\"fromSeconds\",\"NaN\",\"InvalidTimeWindow\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0003814,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.InvalidTimeWindowCannotPublish(\"untilSeconds\",\"9\",\"InvalidTimeWindow\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0002275,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.InvalidTimeWindowCannotPublish(\"untilSeconds\",\"Infinity\",\"InvalidTimeWindow\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0001857,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.PreviewShowsTraceAndCommandsWithoutPublishingOrChangingDocument",
+                        "Status":  "Passed",
+                        "Duration":  0.0441811,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.RuleCommandsFollowEdgeOrderAfterNodesAreReordered",
+                        "Status":  "Passed",
+                        "Duration":  0.000396,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.RuleOrAndNotEvaluateInPathOrderWithoutBypassingEvidence",
+                        "Status":  "Passed",
+                        "Duration":  0.0003017,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.RuleTimeWindowHasInclusiveStartAndExclusiveEnd(9.999d,0)",
+                        "Status":  "Passed",
+                        "Duration":  0.0002689,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.RuleTimeWindowHasInclusiveStartAndExclusiveEnd(10,1)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001953,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.RuleTimeWindowHasInclusiveStartAndExclusiveEnd(19.999d,1)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001703,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.RuleTimeWindowHasInclusiveStartAndExclusiveEnd(20,0)",
+                        "Status":  "Passed",
+                        "Duration":  0.0001392,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RulePreviewTests.UnknownNodeRemainsVisibleAndKeepsItsParameters",
+                        "Status":  "Passed",
+                        "Duration":  0.0483435,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.BareTextNumberMissingFieldAndDuplicateDeclarationAreRejected",
+                        "Status":  "Passed",
+                        "Duration":  0.000295,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.BooleanComparisonAndLegacyStringRuleRemainCompatible",
+                        "Status":  "Passed",
+                        "Duration":  0.0004939,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"number\",\"greater\",\"NaN\",\"m/s\",\"InvalidRuleExpectedValue\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0003647,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"number\",\"greater\",\"Infinity\",\"m/s\",\"InvalidRuleExpectedValue\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0003175,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"number\",\"greater\",\"1e9999\",\"m/s\",\"InvalidRuleExpectedValue\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0004294,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"number\",\"greater\",\"1,5\",\"m/s\",\"InvalidRuleExpectedValue\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0003276,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"bool\",\"equals\",\"1\",\"\",\"InvalidRuleExpectedValue\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0002877,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"bool\",\"greater\",\"true\",\"\",\"InvalidRuleComparison\")",
+                        "Status":  "Passed",
+                        "Duration":  0.000383,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"string\",\"less\",\"abc\",\"\",\"InvalidRuleComparison\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0002993,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"string\",\"equals\",\"abc\",\"seconds\",\"InvalidRuleUnit\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0002893,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.InvalidRuleSchemaCannotReplacePublishedPlan(\"decimal\",\"equals\",\"1\",\"\",\"InvalidRuleValueType\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0014184,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.MalformedRuntimeNumberCannotBecomeTrueThroughNotOrOr(\"NaN\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0008619,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.MalformedRuntimeNumberCannotBecomeTrueThroughNotOrOr(\"-Infinity\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0003443,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.MalformedRuntimeNumberCannotBecomeTrueThroughNotOrOr(\"1,75\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0003884,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"equals\",1.5d,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0005279,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"equals\",1.6d,False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0004032,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"notEqual\",1.5d,False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0003295,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"notEqual\",1.6d,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0004228,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"greater\",1.5d,False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0004229,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"greater\",1.6d,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0004311,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"greaterEqual\",1.5d,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0003649,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"greaterEqual\",1.4d,False)",
+                        "Status":  "Passed",
+                        "Duration":  0.000302,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"less\",1.5d,False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0003608,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"less\",1.4d,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0003178,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"lessEqual\",1.5d,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0004236,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberComparisonsRespectEqualityBoundaries(\"lessEqual\",1.6d,False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0002842,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.NumberParsingUsesInvariantCultureAndBuiltInTimeDeclaresSeconds",
+                        "Status":  "Passed",
+                        "Duration":  0.0124069,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.PreviewUsesTheSameTypedComparisonAndShowsUnitErrors",
+                        "Status":  "Passed",
+                        "Duration":  0.0412783,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.UnitMismatchIsDiagnosedWithoutImplicitConversion(\"km/h\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0002954,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.RuleValueTests.UnitMismatchIsDiagnosedWithoutImplicitConversion(\"\")",
+                        "Status":  "Passed",
+                        "Duration":  0.0001445,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.ApplyPreflightRejectsConflictingJurisdictionBeforeCreatingEntities",
+                        "Status":  "Passed",
+                        "Duration":  0.0001287,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.CollectiveAndOrganizationMayShareTheirWorldIdentity",
+                        "Status":  "Passed",
+                        "Duration":  0.0001378,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.CombinedSampleAssetCompilesAndCreatesAWorld",
+                        "Status":  "Passed",
+                        "Duration":  0.0008533,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.DirectedAgentsMayHaveMultipleRelationTypes",
+                        "Status":  "Passed",
+                        "Duration":  0.0001044,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.InvalidRoleAssignmentAndTypedConnectionAreRejected",
+                        "Status":  "Passed",
+                        "Duration":  8.35E-05,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.RecursiveBehaviorCheckpointIncludesSubgraphState",
+                        "Status":  "Passed",
+                        "Duration":  0.0002847,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.StagedApplyFailureLeavesLiveWorldUntouched",
+                        "Status":  "Passed",
+                        "Duration":  0.0002078,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.StructureCanvasConnectsDeletesSavesAndUndoRedoWorks",
+                        "Status":  "Passed",
+                        "Duration":  0.1918389,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.StructureClipboardRegeneratesEntityIdsAndInternalEdges",
+                        "Status":  "Passed",
+                        "Duration":  0.0318531,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Graph.Tests.SocialStructureTests.StructurePlanAppliesMultiMembershipRoleRelationAuthorityAndPlaceOwner",
+                        "Status":  "Passed",
+                        "Duration":  0.0008187,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Tests.HouseholdBreakfastJoinTests.ArrivalWithoutPersonalKnowledgeCannotForceAJoin",
+                        "Status":  "Passed",
+                        "Duration":  0.0010528,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Tests.HouseholdBreakfastJoinTests.AwayDependentLearnsTheBreakfastNoticeAndLateJoinsAfterArrivingHome",
+                        "Status":  "Passed",
+                        "Duration":  0.0009565,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.ActiveCareShiftPurchaseAndClubSurviveLoadWithoutDuplicateEffects",
+                        "Status":  "Passed",
+                        "Duration":  0.0203992,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.ClosedHomeCannotStartCareEvenWhenTheCaregiverIsAlreadyInside",
+                        "Status":  "Passed",
+                        "Duration":  0.0046829,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.DefaultNavigationPointsExistInTheRegisteredSampleRegionPrefabs",
+                        "Status":  "Passed",
+                        "Duration":  0.0001846,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.ForgedArrivalCannotDeliverGoodsOrPayWages",
+                        "Status":  "Passed",
+                        "Duration":  0.0003765,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.LeavingDuringShiftCancelsBusinessGraphAndDoesNotPay",
+                        "Status":  "Passed",
+                        "Duration":  0.0070458,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.LoadingAgainstChangedModuleBindingsIsRejected",
+                        "Status":  "Passed",
+                        "Duration":  0.0010197,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.LongPurchaseTravelHasABoundedConfigurableSimulationTimeBudget",
+                        "Status":  "Passed",
+                        "Duration":  0.0194004,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.PausedHouseholdRegionCancellationCanBeSavedBeforeAnotherTick(False)",
+                        "Status":  "Passed",
+                        "Duration":  0.008862,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.PausedHouseholdRegionCancellationCanBeSavedBeforeAnotherTick(True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0072028,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.PausedWorkRegionCancellationRestoresWithoutRepeatingBusinessEffects(\"shop\",1800,False)",
+                        "Status":  "Passed",
+                        "Duration":  0.0199345,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.PausedWorkRegionCancellationRestoresWithoutRepeatingBusinessEffects(\"shop\",3970,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0372739,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.PausedWorkRegionCancellationRestoresWithoutRepeatingBusinessEffects(\"square\",5200,True)",
+                        "Status":  "Passed",
+                        "Duration":  0.0123438,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.RegionCancellationFindsActionsBehindWaitNodesAndPreservesUnrelatedGraphs",
+                        "Status":  "Passed",
+                        "Duration":  0.0022008,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.RequiredBusinessActionsCannotBeDisconnectedOrSkippedBySelector",
+                        "Status":  "Passed",
+                        "Duration":  0.0008702,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.SameActorCompletesCareWagePurchaseAndClubWithoutCampus",
+                        "Status":  "Passed",
+                        "Duration":  0.0090579,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.IndependentDomainsTests.WorkbenchGraphVersionsCanBeAppliedAndRestartedWithoutRepeatingBusinessEffects",
+                        "Status":  "Passed",
+                        "Duration":  0.0090063,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.TradeKnowledgeBehaviorTests.ExpiredAvailabilityMemoryAloneRestartsTheAttemptAndFailsAtTheRealCounter",
+                        "Status":  "Passed",
+                        "Duration":  0.011147,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.TradeKnowledgeBehaviorTests.LocalAnnouncementAndConversationChangeRealPurchaseAndSurviveJsonRestore",
+                        "Status":  "Passed",
+                        "Duration":  0.0038523,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.TradeKnowledgeBehaviorTests.OldTradeCheckpointIsRejectedBeforeChangingTheCurrentWorld",
+                        "Status":  "Passed",
+                        "Duration":  0.0004592,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.TradeKnowledgeBehaviorTests.ReopeningKnowledgeAutomaticallyRestartsTheDeferredPurchaseWithoutAnotherRequest",
+                        "Status":  "Passed",
+                        "Duration":  0.000922,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.TradeKnowledgeBehaviorTests.ScheduledCustomerPurchaseUsesPersonalInformationBeforeStartingAction",
+                        "Status":  "Passed",
+                        "Duration":  0.0336731,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.WorkAndTrade.Tests.TradeKnowledgeBehaviorTests.UnknownCustomerAttemptsClosedServiceThenLearnsAtCounterWithoutReceivingGoods",
+                        "Status":  "Passed",
+                        "Duration":  0.0014685,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorKnowledgeObserverTests.ExpiredProtectedHistoryAndUnknownDecisionAreExplicitAfterJsonRestore",
+                        "Status":  "Passed",
+                        "Duration":  0.0011924,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorKnowledgeObserverTests.FilteringRunsBeforeDisplayLimitAndReportsMatchingAndTotalCounts",
+                        "Status":  "Passed",
+                        "Duration":  0.003958,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorKnowledgeObserverTests.HistoricDecisionConfidenceAndCurrentRelayedKnowledgeStayDistinct",
+                        "Status":  "Passed",
+                        "Duration":  0.0003254,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorKnowledgeObserverTests.ObservingAndEditingTheViewDoesNotMutateSimulationOrDecisionEvidence",
+                        "Status":  "Passed",
+                        "Duration":  0.0006547,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorKnowledgeObserverTests.PersonalKnowledgeDoesNotLeakOtherActorsOrUnreceivedWorldFacts",
+                        "Status":  "Passed",
+                        "Duration":  0.0001242,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorKnowledgeObserverTests.WindowBindsKnowledgeAndDecisionRowsAndClearsThemWhenActorChanges",
+                        "Status":  "Passed",
+                        "Duration":  0.030699,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverTests.BuilderMapsOneActorAcrossRolesDecisionsEvidenceAndResources",
+                        "Status":  "Passed",
+                        "Duration":  0.0002541,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverTests.WindowOpensWithActorAndControlWidgets",
+                        "Status":  "Passed",
+                        "Duration":  0.0262628,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverWorldIsolationTests.ChildProvidersAndAmbiguousNestedWorldTracesDoNotEnterOwnersDiagnostics",
+                        "Status":  "Passed",
+                        "Duration":  0.029434,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverWorldIsolationTests.ConfirmedTerminalFailureRemainsVisibleAfterItsActiveGraphIsRemoved",
+                        "Status":  "Passed",
+                        "Duration":  0.0299009,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverWorldIsolationTests.GlobalTracesRequireCurrentOwnerTickAndMatchingInstanceAndAreClearedAcrossLoad",
+                        "Status":  "Passed",
+                        "Duration":  0.0301957,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverWorldIsolationTests.MissingBoundRunnerCannotSwitchToRemainingWorldAndMultipleWorldsNeedSelection",
+                        "Status":  "Passed",
+                        "Duration":  0.0284328,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverWorldIsolationTests.SameActorIdSelectionControlsAndDisplaysOnlyTheSelectedOwnersWorld",
+                        "Status":  "Passed",
+                        "Duration":  0.0306152,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Editor.Observer.Tests.ActorObserverWorldIsolationTests.UnregisteredAndOrphanMarkersNeverFallBackToAnotherSameIdActor",
+                        "Status":  "Passed",
+                        "Duration":  0.0286095,
+                        "Message":  null,
+                        "StackTrace":  null
+                    }
+                ]
+}

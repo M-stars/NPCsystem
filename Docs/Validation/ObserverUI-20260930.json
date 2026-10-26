@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var w = UnityEngine.Resources.FindObjectsOfTypeAll<SocialSimulation.Editor.Observer.ActorObserverWindow>()[0]; var root = w.rootVisualElement; var field = UnityEngine.UIElements.UQueryExtensions.Q<UnityEngine.UIElements.TextField>(root, \"knowledge-filter\"); var summary = UnityEngine.UIElements.UQueryExtensions.Q<UnityEngine.UIElements.Label>(root, \"knowledge-summary\"); field.value = \"not-existing-report\"; var missed = summary.text; field.value = \"npc.clerk.02\"; var matched = summary.text; field.value = \"\"; w.SetActorId(\"npc.student.01\"); var other = summary.text; w.SetActorId(\"npc.clerk.02\"); var eventField = UnityEngine.UIElements.UQueryExtensions.Q<UnityEngine.UIElements.TextField>(root, \"event-filter\"); var report = new { Missed = missed, Matched = matched, OtherActor = other, RestoredActor = summary.text, EventFilterWidth = eventField.worldBound.width, CompactWindow = w.position.ToString(), Faulted = UnityEngine.Object.FindAnyObjectByType<SocialSimulation.UnityRuntime.SocialWorldRunner>().IsFaulted }; w.position = new UnityEngine.Rect(90, 70, 1060, 860); return report;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "Missed": "匹配 0 / 个人记录总数 1，显示 0 条",
+        "Matched": "匹配 1 / 个人记录总数 1，显示 1 条",
+        "OtherActor": "匹配 0 / 个人记录总数 0，显示 0 条",
+        "RestoredActor": "匹配 1 / 个人记录总数 1，显示 1 条",
+        "EventFilterWidth": 662.6667,
+        "CompactWindow": "(x:90.00, y:70.00, width:700.00, height:560.00)",
+        "Faulted": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\unity_hub\\NPCsystem"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

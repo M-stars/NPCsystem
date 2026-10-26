@@ -1,0 +1,16 @@
+{
+  "name": "SocialSimulation.Domains.Campus",
+  "rootNamespace": "SocialSimulation.Domains.Campus",
+  "references": ["SocialSimulation.Core", "SocialSimulation.Domains",
+    "SocialSimulation.Graph", "SocialSimulation.UnityRuntime", "SocialSimulation.Actions",
+    "SocialSimulation.Actions.UnityRuntime"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

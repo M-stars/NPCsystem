@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "tail": "10",
+      "level": "warn"
+    },
+    "result": {
+      "entries": [],
+      "cursor": 94,
+      "session": "a80bad29cf4e4654902b6e4c87e9e4e2",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 0,
+        "log": 0
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-09-30T04:57:57.9907878Z",
+        "ageMs": 218,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 0,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\unity_hub\\NPCsystem"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

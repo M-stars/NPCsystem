@@ -1,0 +1,17 @@
+{
+  "name": "SocialSimulation.UnityRuntime",
+  "rootNamespace": "SocialSimulation.UnityRuntime",
+  "references": [
+    "SocialSimulation.Core",
+    "SocialSimulation.Graph"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

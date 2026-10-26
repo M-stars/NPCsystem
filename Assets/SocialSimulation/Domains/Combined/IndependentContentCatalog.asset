@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de3b6cd41824fb4c94616c2bb173c9b, type: 3}
+  m_Name: IndependentContentCatalog
+  m_EditorClassIdentifier: SocialSimulation.Authoring::SocialSimulation.Authoring.SocialContentCatalogAsset
+  npcPackages:
+  - {fileID: 11400000, guid: 7e174bb9fbc93e245bd73c62dc0cf844, type: 2}
+  - {fileID: 11400000, guid: f150259e28b44224fbb7ab0cd6f50338, type: 2}
+  regionPackages:
+  - {fileID: 11400000, guid: 0196e3a1bb582974aaa62f7a0e3a4d5f, type: 2}
+  - {fileID: 11400000, guid: dc3eeabd18e73324382ae0216ee3c405, type: 2}
+  - {fileID: 11400000, guid: da62231ab8393e84982d25b11a3119a0, type: 2}
+  - {fileID: 11400000, guid: c98bb5db137740342939a659094aa5e0, type: 2}
+  domainPackages:
+  - {fileID: 11400000, guid: 647928dc33578bd48b2d1dd4dc03dbac, type: 2}
+  - {fileID: 11400000, guid: 6b474b0a2db941840982969df5ea3b81, type: 2}

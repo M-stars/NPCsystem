@@ -1,0 +1,13 @@
+{
+  "name": "SocialSimulation.Editor.Graph",
+  "rootNamespace": "SocialSimulation.Editor.Graph",
+  "references": ["SocialSimulation.Graph", "SocialSimulation.Core", "SocialSimulation.UnityRuntime", "SocialSimulation.Domains", "SocialSimulation.Authoring"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "SocialSimulation.Domains.WorkAndTrade",
+  "rootNamespace": "SocialSimulation.Domains.WorkAndTrade",
+  "references": [
+    "SocialSimulation.Core",
+    "SocialSimulation.UnityRuntime",
+    "SocialSimulation.Graph",
+    "SocialSimulation.Actions",
+    "SocialSimulation.Actions.UnityRuntime",
+    "SocialSimulation.Domains.DomainActions"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

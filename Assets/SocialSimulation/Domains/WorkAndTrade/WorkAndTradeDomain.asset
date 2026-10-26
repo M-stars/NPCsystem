@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a25b42c3c9528b04cac443719be24d29, type: 3}
+  m_Name: WorkAndTradeDomain
+  m_EditorClassIdentifier: SocialSimulation.Domains::SocialSimulation.Domains.SocialDomainPackageAsset
+  packageId: work_and_trade
+  version: 1.2.0
+  displayName: "\u5DE5\u4F5C\u3001\u4EA4\u6613\u4E0E\u793E\u56E2"
+  roleIds:
+  - trade.clerk
+  - trade.worker
+  - trade.customer
+  - community.member
+  relationTypeIds:
+  - employment
+  - customer
+  - club.member
+  activityTypeIds:
+  - trade.shift
+  - trade.pay_wage
+  - trade.purchase
+  - community.walking_club.meetup
+  actionIds:
+  - trade.exchange
+  - work.perform
+  - communication.speak

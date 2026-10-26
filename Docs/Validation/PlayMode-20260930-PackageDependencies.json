@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "duration": 415.74,
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.ActiveCareCanUnloadWhilePausedAndImmediatelyRestoreItsOwnSave",
+      "Status": "Passed",
+      "Duration": 0.2064845,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.ClosingAndUnloadingRegionReleasesResourcesAndRejectsAdmission",
+      "Status": "Passed",
+      "Duration": 0.2792438,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.DestroyedNpcIsRemovedFromRuntimeAndReleasesReservations",
+      "Status": "Passed",
+      "Duration": 0.1639847,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.GeneratedSceneRunsAllThreeDomainsWithHumanoidAndGenericActors",
+      "Status": "Passed",
+      "Duration": 0.0868803,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.HumanoidSeatedAnimationRemainsInLoopAndGenericCanWalk",
+      "Status": "Passed",
+      "Duration": 0.1614249,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.IndependentCommunityCompletesDayAndRestoresActiveShiftWithoutCampus",
+      "Status": "Passed",
+      "Duration": 193.514332,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.InvalidTravelAndIncompatibleSaveLeaveWorldUntouched",
+      "Status": "Passed",
+      "Duration": 0.0994883,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.MidTravelSaveLoadRestoresGraphResourcesAndContinuesCourse",
+      "Status": "Passed",
+      "Duration": 207.9037166,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.PausedSingleStepExpiresTravelAndKeepsFailureAfterSaveLoad",
+      "Status": "Passed",
+      "Duration": 0.1149397,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.RegionClosurePreservesDisabledSlotsAndTombstoneSaveCanReload",
+      "Status": "Passed",
+      "Duration": 0.1697955,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.ReopeningOutsideHoursAndCrossingAWholeCalendarPeriodCannotLeakTokens",
+      "Status": "Passed",
+      "Duration": 0.1467643,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.TransientScenarioRestoreFailureRollsBackWorldAndNpcPoses",
+      "Status": "Passed",
+      "Duration": 0.1649591,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.UnloadingActiveClassroomPreservesOtherClassroomAndCanReloadImmediately",
+      "Status": "Passed",
+      "Duration": 0.171894,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.KnowledgePurchasePlayModeTests.ActualConversationChangesGoalAndReopeningAllowsAnimatedPurchaseAfterLoad",
+      "Status": "Passed",
+      "Duration": 12.1229765,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.NavigationStartupPlayModeTests.BothScenesBindAfterSurfaceLoadAndNpcReenableWithoutStartupErrors",
+      "Status": "Passed",
+      "Duration": 0.3216118,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

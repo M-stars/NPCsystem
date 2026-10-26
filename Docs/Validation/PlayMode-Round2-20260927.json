@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "duration": 419.82,
+  "summary": {
+    "total": 7,
+    "passed": 5,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.ClosingAndUnloadingRegionReleasesResourcesAndRejectsAdmission",
+      "Status": "Passed",
+      "Duration": 0.2851502,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.DestroyedNpcIsRemovedFromRuntimeAndReleasesReservations",
+      "Status": "Passed",
+      "Duration": 0.1417932,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.GeneratedSceneRunsAllThreeDomainsWithHumanoidAndGenericActors",
+      "Status": "Passed",
+      "Duration": 0.0894091,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.HumanoidSeatedAnimationRemainsInLoopAndGenericCanWalk",
+      "Status": "Passed",
+      "Duration": 0.1393188,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.IndependentCommunityCompletesDayAndRestoresActiveShiftWithoutCampus",
+      "Status": "Failed",
+      "Duration": 204.4629947,
+      "Message": "  社团活动应完成。\r\n  Expected: True\r\n  But was:  False\r\n",
+      "StackTrace": "at SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests+<IndependentCommunityCompletesDayAndRestoresActiveShiftWithoutCampus>d__8.MoveNext () [0x002a8] in D:\\unity_hub\\NPCsystem\\Assets\\SocialSimulation\\Domains\\Combined\\Tests\\CombinedWorldPlayModeTests.cs:232\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@7a3849e09bd0\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:52\r\n"
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.InvalidTravelAndIncompatibleSaveLeaveWorldUntouched",
+      "Status": "Passed",
+      "Duration": 0.2961226,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.MidTravelSaveLoadRestoresGraphResourcesAndContinuesCourse",
+      "Status": "Failed",
+      "Duration": 214.350214,
+      "Message": "  Combined day incomplete: wage=True, purchase=True, customer=False, club=False\r\n  Expected: True\r\n  But was:  False\r\n",
+      "StackTrace": "at SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests+<MidTravelSaveLoadRestoresGraphResourcesAndContinuesCourse>d__5.MoveNext () [0x004d8] in D:\\unity_hub\\NPCsystem\\Assets\\SocialSimulation\\Domains\\Combined\\Tests\\CombinedWorldPlayModeTests.cs:155\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@7a3849e09bd0\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:52\r\n"
+    }
+  ]
+}

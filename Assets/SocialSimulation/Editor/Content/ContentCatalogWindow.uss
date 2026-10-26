@@ -1,0 +1,12 @@
+.catalog-root { padding: 8px; }
+.catalog-toolbar { flex-direction: row; flex-wrap: wrap; margin-bottom: 8px; }
+.catalog-toolbar > Button { margin-right: 6px; }
+.catalog-title { font-size: 16px; -unity-font-style: bold; margin-bottom: 6px; }
+.catalog-section { font-size: 13px; -unity-font-style: bold; margin-top: 10px; margin-bottom: 4px; }
+.catalog-row { flex-direction: row; align-items: center; padding-top: 5px; padding-bottom: 5px; border-bottom-width: 1px; border-bottom-color: #4d5560; }
+.catalog-row > Label { flex-grow: 1; flex-shrink: 1; min-width: 0; white-space: normal; }
+.catalog-row > Button { margin-left: 6px; flex-shrink: 0; }
+.catalog-good { color: #70d69c; }
+.catalog-error { color: #e68787; }
+.catalog-summary { white-space: normal; margin-top: 8px; }
+#dependency-help { white-space: normal; margin-bottom: 8px; }

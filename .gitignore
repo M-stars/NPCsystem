@@ -1,0 +1,38 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.suo
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unity crash reports / local tooling
+sysinfo.txt
+*.stackdump
+.zcode/
+
+# Unity meta should be committed, but exclude generated caches
+crashlytics-build.properties
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/StreamingAssets/aa/
+
+# Records
+Recordings/

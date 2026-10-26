@@ -1,0 +1,20 @@
+{
+  "name": "SocialSimulation.Observer.Tests",
+  "rootNamespace": "SocialSimulation.Editor.Observer.Tests",
+  "references": [
+    "SocialSimulation.Editor.Observer",
+    "SocialSimulation.Core",
+    "SocialSimulation.Graph",
+    "SocialSimulation.Actions",
+    "SocialSimulation.UnityRuntime"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

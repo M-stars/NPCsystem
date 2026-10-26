@@ -1,0 +1,14 @@
+{
+  "name": "SocialSimulation.Core.Tests",
+  "rootNamespace": "SocialSimulation.Tests",
+  "references": ["SocialSimulation.Core", "SocialSimulation.Graph", "SocialSimulation.Actions"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

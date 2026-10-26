@@ -1,0 +1,13 @@
+{
+  "name": "SocialSimulation.Graph",
+  "rootNamespace": "SocialSimulation.Graph",
+  "references": ["SocialSimulation.Core"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}

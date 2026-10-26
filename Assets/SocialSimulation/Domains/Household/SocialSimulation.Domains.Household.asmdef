@@ -1,0 +1,21 @@
+{
+  "name": "SocialSimulation.Domains.Household",
+  "rootNamespace": "SocialSimulation.Domains.Household",
+  "references": [
+    "SocialSimulation.Core",
+    "SocialSimulation.UnityRuntime",
+    "SocialSimulation.Graph",
+    "SocialSimulation.Actions",
+    "SocialSimulation.Actions.UnityRuntime",
+    "SocialSimulation.Domains.DomainActions"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

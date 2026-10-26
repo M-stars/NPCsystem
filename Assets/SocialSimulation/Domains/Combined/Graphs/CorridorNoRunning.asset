@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389925d5395a24a44966bc1911b0c460, type: 3}
+  m_Name: CorridorNoRunning
+  m_EditorClassIdentifier: SocialSimulation.Graph::SocialSimulation.Graph.GraphDocument
+  kind: 1
+  documentId: sample.rule.corridor_no_running
+  version: 1
+  nodes:
+  - Id: ced46082546342ee9c9eb73a42c75f0a
+    Type: 11
+    Position: {x: 20, y: 150}
+    Parameters:
+    - Key: eventType
+      Value: action.observed
+    Subgraph: {fileID: 0}
+  - Id: ba85e46ed3f0460ba9a68c4efe9023b1
+    Type: 12
+    Position: {x: 280, y: 150}
+    Parameters:
+    - Key: areaId
+      Value: campus.corridor
+    - Key: roleId
+      Value: campus.student
+    - Key: actionId
+      Value: locomotion.run
+    Subgraph: {fileID: 0}
+  - Id: ac8381cd5abd42e2a77eaa40c7f99c29
+    Type: 13
+    Position: {x: 550, y: 80}
+    Parameters:
+    - Key: requiresEvidence
+      Value: true
+    Subgraph: {fileID: 0}
+  - Id: ca97c8dd743144e599f0f0933cc5bbca
+    Type: 15
+    Position: {x: 820, y: 80}
+    Parameters:
+    - Key: commandId
+      Value: violation.warn
+    - Key: target
+      Value: actor
+    Subgraph: {fileID: 0}
+  - Id: 46e3d3320f6941cdb2203893349c67a3
+    Type: 14
+    Position: {x: 550, y: 280}
+    Parameters:
+    - Key: normKind
+      Value: prohibition
+    - Key: actionId
+      Value: locomotion.run
+    - Key: priority
+      Value: 10
+    Subgraph: {fileID: 0}
+  edges:
+  - FromNodeId: ced46082546342ee9c9eb73a42c75f0a
+    FromPort: out
+    ToNodeId: ba85e46ed3f0460ba9a68c4efe9023b1
+    ToPort: in
+    Order: 0
+  - FromNodeId: ba85e46ed3f0460ba9a68c4efe9023b1
+    FromPort: out
+    ToNodeId: ac8381cd5abd42e2a77eaa40c7f99c29
+    ToPort: in
+    Order: 0
+  - FromNodeId: ac8381cd5abd42e2a77eaa40c7f99c29
+    FromPort: out
+    ToNodeId: ca97c8dd743144e599f0f0933cc5bbca
+    ToPort: in
+    Order: 0
+  - FromNodeId: ba85e46ed3f0460ba9a68c4efe9023b1
+    FromPort: out
+    ToNodeId: 46e3d3320f6941cdb2203893349c67a3
+    ToPort: in
+    Order: 1

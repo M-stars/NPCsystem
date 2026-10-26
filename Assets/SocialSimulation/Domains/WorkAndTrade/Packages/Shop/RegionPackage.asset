@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9148d93f496bb4ab2b0beede506a0e, type: 3}
+  m_Name: RegionPackage
+  m_EditorClassIdentifier: SocialSimulation.Authoring::SocialSimulation.Authoring.RegionPackageAsset
+  packageId: region.trade.shop
+  version: 1.1.0
+  regionPrefab: {fileID: 8337033119834961271, guid: 44b47404e66d71349ab36d84626ecd8f, type: 3}
+  regions:
+  - Id: trade.shop
+    PackageId: region.trade.shop
+    Tag: trade.shop
+    Capacity: 64
+    Zones:
+    - LocalId: service
+      Tag: trade.service
+      Capacity: 8
+    - LocalId: stock
+      Tag: trade.stock
+      Capacity: 8
+    Points:
+    - LocalId: counter
+      ZoneLocalId: service
+      Kind: trade.exchange
+      Capacity: 1
+    - LocalId: queue
+      ZoneLocalId: service
+      Kind: activity.wait
+      Capacity: 3
+    - LocalId: shelf.01
+      ZoneLocalId: stock
+      Kind: object.pickup
+      Capacity: 1
+    - LocalId: shelf.02
+      ZoneLocalId: stock
+      Kind: object.pickup
+      Capacity: 1
+    Bounds:
+      Enabled: 1
+      CenterX: 0
+      CenterY: 2
+      CenterZ: 0
+      SizeX: 10
+      SizeY: 6
+      SizeZ: 9
+    EntranceLocalIds:
+    - main
+    OpeningPeriodSeconds: 86400
+    OpeningTimeOffsetSeconds: 0
+    OpeningHours: []
+    Access:
+      RequireOwnerMembership: 0
+      RequiredCollectiveIds: []
+      RequiredRoles: []

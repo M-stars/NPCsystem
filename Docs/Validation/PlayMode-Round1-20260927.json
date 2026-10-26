@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 284.48,
+  "summary": {
+    "total": 6,
+    "passed": 4,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.DestroyedNpcIsRemovedFromRuntimeAndReleasesReservations",
+      "Status": "Passed",
+      "Duration": 0.2294387,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.GeneratedSceneRunsAllThreeDomainsWithHumanoidAndGenericActors",
+      "Status": "Passed",
+      "Duration": 0.1035059,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.HumanoidSeatedAnimationRemainsInLoopAndGenericCanWalk",
+      "Status": "Passed",
+      "Duration": 0.1761157,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.IndependentCommunityCompletesDayAndRestoresActiveShiftWithoutCampus",
+      "Status": "Failed",
+      "Duration": 193.5424709,
+      "Message": "  同一照护者/雇员应完成购买。\r\n  Expected: True\r\n  But was:  False\r\n",
+      "StackTrace": "at SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests+<IndependentCommunityCompletesDayAndRestoresActiveShiftWithoutCampus>d__7.MoveNext () [0x00274] in D:\\unity_hub\\NPCsystem\\Assets\\SocialSimulation\\Domains\\Combined\\Tests\\CombinedWorldPlayModeTests.cs:192\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@7a3849e09bd0\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:52\r\n"
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.InvalidTravelAndIncompatibleSaveLeaveWorldUntouched",
+      "Status": "Passed",
+      "Duration": 0.1265711,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.MidTravelSaveLoadRestoresGraphResourcesAndContinuesCourse",
+      "Status": "Failed",
+      "Duration": 90.2645183,
+      "Message": "  Expected: <empty>\r\n  But was:  < <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=demo.course.start.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>, <CASCADE_CLOSED at : Cannot reopen a completed or unknown root cause; schedule delayed causal events before the root closes. Parent=, attempted=schedule.deadline.>... >\r\n",
+      "StackTrace": "at SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests+<MidTravelSaveLoadRestoresGraphResourcesAndContinuesCourse>d__5.MoveNext () [0x00435] in D:\\unity_hub\\NPCsystem\\Assets\\SocialSimulation\\Domains\\Combined\\Tests\\CombinedWorldPlayModeTests.cs:149\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@7a3849e09bd0\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:52\r\n"
+    }
+  ]
+}

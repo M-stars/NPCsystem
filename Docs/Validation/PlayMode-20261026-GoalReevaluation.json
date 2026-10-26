@@ -1,0 +1,118 @@
+﻿{
+    "status":  "completed",
+    "duration":  419.61,
+    "summary":  {
+                    "total":  15,
+                    "passed":  15,
+                    "failed":  0,
+                    "skipped":  0,
+                    "inconclusive":  0
+                },
+    "results":  [
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.ActiveCareCanUnloadWhilePausedAndImmediatelyRestoreItsOwnSave",
+                        "Status":  "Passed",
+                        "Duration":  0.2281796,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.ClosingAndUnloadingRegionReleasesResourcesAndRejectsAdmission",
+                        "Status":  "Passed",
+                        "Duration":  0.2958814,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.DestroyedNpcIsRemovedFromRuntimeAndReleasesReservations",
+                        "Status":  "Passed",
+                        "Duration":  0.1711003,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.GeneratedSceneRunsAllThreeDomainsWithHumanoidAndGenericActors",
+                        "Status":  "Passed",
+                        "Duration":  0.0874282,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.HumanoidSeatedAnimationRemainsInLoopAndGenericCanWalk",
+                        "Status":  "Passed",
+                        "Duration":  0.1648748,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.IndependentCommunityCompletesDayAndRestoresActiveShiftWithoutCampus",
+                        "Status":  "Passed",
+                        "Duration":  193.5219693,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.InvalidTravelAndIncompatibleSaveLeaveWorldUntouched",
+                        "Status":  "Passed",
+                        "Duration":  0.1146018,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.MidTravelSaveLoadRestoresGraphResourcesAndContinuesCourse",
+                        "Status":  "Passed",
+                        "Duration":  211.414755,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.PausedSingleStepExpiresTravelAndKeepsFailureAfterSaveLoad",
+                        "Status":  "Passed",
+                        "Duration":  0.1190747,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.RegionClosurePreservesDisabledSlotsAndTombstoneSaveCanReload",
+                        "Status":  "Passed",
+                        "Duration":  0.1821103,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.ReopeningOutsideHoursAndCrossingAWholeCalendarPeriodCannotLeakTokens",
+                        "Status":  "Passed",
+                        "Duration":  0.1584831,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.TransientScenarioRestoreFailureRollsBackWorldAndNpcPoses",
+                        "Status":  "Passed",
+                        "Duration":  0.1791546,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.CombinedWorldPlayModeTests.UnloadingActiveClassroomPreservesOtherClassroomAndCanReloadImmediately",
+                        "Status":  "Passed",
+                        "Duration":  0.182062,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.KnowledgePurchasePlayModeTests.ActualConversationChangesGoalAndReopeningAllowsAnimatedPurchaseAfterLoad",
+                        "Status":  "Passed",
+                        "Duration":  12.303249,
+                        "Message":  null,
+                        "StackTrace":  null
+                    },
+                    {
+                        "FullName":  "SocialSimulation.Domains.Combined.Tests.NavigationStartupPlayModeTests.BothScenesBindAfterSurfaceLoadAndNpcReenableWithoutStartupErrors",
+                        "Status":  "Passed",
+                        "Duration":  0.3573199,
+                        "Message":  null,
+                        "StackTrace":  null
+                    }
+                ]
+}

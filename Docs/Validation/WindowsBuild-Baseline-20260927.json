@@ -1,0 +1,18 @@
+{
+  "Status": "completed",
+  "Result": "Succeeded",
+  "Platform": "StandaloneWindows64",
+  "OutputPath": "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo.exe",
+  "TotalSizeBytes": 109884939,
+  "BuildTimeMs": 18719,
+  "BuildStartedAt": "2026-09-27T13:44:21.3798986Z",
+  "BuildEndedAt": "2026-09-27T13:44:40.0998628Z",
+  "TotalWarnings": 1,
+  "TotalErrors": 0,
+  "Warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ],
+  "Errors": []
+}

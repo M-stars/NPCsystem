@@ -1,0 +1,1306 @@
+﻿{
+    "status":  "completed",
+    "buildId":  "build_a9fe0694579f",
+    "result":  "Succeeded",
+    "platform":  "StandaloneWindows64",
+    "outputPath":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo.exe",
+    "totalSizeBytes":  110002087,
+    "buildTimeMs":  14531,
+    "buildStartedAt":  "2026-10-25T17:38:53.5391547Z",
+    "buildEndedAt":  "2026-10-25T17:39:08.0707809Z",
+    "totalWarnings":  1,
+    "totalErrors":  0,
+    "files":  [
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/globalgamemanagers",
+                      "role":  "globalgamemanagers",
+                      "sizeBytes":  92884
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/globalgamemanagers.assets",
+                      "role":  "assets",
+                      "sizeBytes":  1034280
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/globalgamemanagers.assets.resS",
+                      "role":  "resS",
+                      "sizeBytes":  3553504
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/level0",
+                      "role":  "level0",
+                      "sizeBytes":  403712
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/level1",
+                      "role":  "level1",
+                      "sizeBytes":  101736
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/resources.assets",
+                      "role":  "assets",
+                      "sizeBytes":  3324
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Resources/unity_builtin_extra",
+                      "role":  "unity_builtin_extra",
+                      "sizeBytes":  527988
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/RuntimeInitializeOnLoads.json",
+                      "role":  "GlobalGameManagers",
+                      "sizeBytes":  4862
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/ScriptingAssemblies.json",
+                      "role":  "json",
+                      "sizeBytes":  5289
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/sharedassets0.assets",
+                      "role":  "assets",
+                      "sizeBytes":  695112
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/sharedassets0.assets.resS",
+                      "role":  "resS",
+                      "sizeBytes":  4024224
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/sharedassets1.assets",
+                      "role":  "assets",
+                      "sizeBytes":  7096
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/boot.config",
+                      "role":  "BootConfig",
+                      "sizeBytes":  156
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Plugins/x86_64/libonigwrap.dll",
+                      "role":  "dll",
+                      "sizeBytes":  551336
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Assembly-CSharp.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  3584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/MCPForUnity.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  30208
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Mono.Security.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  241152
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/mscorlib.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  4632064
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/netstandard.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  90112
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Newtonsoft.Json.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  691712
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Actions.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  36352
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Actions.UnityRuntime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  9216
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Authoring.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  26112
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Core.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  159232
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Domains.Campus.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  34816
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Domains.Combined.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  7680
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Domains.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  6144
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Domains.DomainActions.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  19456
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Domains.Household.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  20480
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Domains.WorkAndTrade.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  28160
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.Graph.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  75776
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/SocialSimulation.UnityRuntime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  57856
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Buffers.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  4608
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Collections.Immutable.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  252680
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.ComponentModel.Composition.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  257024
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Configuration.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  124928
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Core.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  1113088
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Data.DataSetExtensions.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  29696
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Data.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  2125312
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  2641920
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Drawing.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  489984
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.EnterpriseServices.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  44544
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.IO.Compression.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  114688
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.IO.Compression.FileSystem.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  18432
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Memory.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  4608
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Net.Http.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  122880
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Numerics.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  119296
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Reflection.Metadata.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  487584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  19256
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Runtime.Serialization.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  934400
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Security.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  320000
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.ServiceModel.Internals.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  215040
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Transactions.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  35328
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Xml.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  3160064
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/System.Xml.Linq.dll",
+                      "role":  "DependentManagedLibrary",
+                      "sizeBytes":  136704
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.AI.Navigation.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  23040
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Burst.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  5120
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Collections.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  442368
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  5120
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Collections.Tests.CoreCLR.InternalJobNestedPrivate.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  4608
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Collections.Tests.CoreCLR.PrivateJobNested.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  4096
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Collections.Tests.CoreCLR.ProtectedJobNested.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  4096
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Collections.Tests.CoreCLR.PublicJobPrivateGeneric.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  4608
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.InputSystem.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  1094656
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.InputSystem.ForUI.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  15360
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  4096
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.InternalAPIEngineBridge.ObjectDispatcher.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  5632
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  3584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.PathTracing.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  152576
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Pipeline.Attributes.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  4608
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Profiling.Core.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  8192
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  7680
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  1084928
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  11264
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  3584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  274944
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  3584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  215040
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  4096
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  752128
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  3584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Scripting.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  70576
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.SurfaceCache.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  35840
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.TextMeshPro.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  438784
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.Timeline.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  120832
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  101376
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AccessibilityModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  49584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  122288
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AIModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  87472
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AMDModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  21928
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  121256
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AnimationModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  218032
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ARModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  27560
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AssetBundleModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  42920
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.AudioModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  142248
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.BurstModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  337832
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ClothModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  38312
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ClusterInputModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  30120
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  28592
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ContentLoadModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  56240
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.CoreModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  2028456
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.CrashReportingModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  28592
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.DirectorModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  42928
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  225704
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.DSPGraphModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  33704
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.GameCenterModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  46504
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.GIModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  26024
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  14248
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.GridModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  32680
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  111528
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.HierarchyModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  114088
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.HotReloadModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  26032
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.IdentifiersModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  16808
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ImageConversionModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  34224
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.IMGUIModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  190888
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.InputForUIModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  56752
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.InputLegacyModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  42928
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.InputModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  32680
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.InsightsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  15792
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  29104
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.LocalizationModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  29096
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ManagedKernelModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  14248
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.MarshallingModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  100784
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.MathematicsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  740776
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.MultiplayerModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  18344
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.NVIDIAModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  41392
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  169384
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  27048
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.Physics2DModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  222640
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  14248
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.PhysicsCore2DModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  482736
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.PhysicsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  181680
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.PropertiesModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  124840
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  27560
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  26032
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  28080
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ScriptingModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  65968
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  26024
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  30640
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  34224
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.StreamingModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  28080
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.SubstanceModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  31152
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.SubsystemsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  42920
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TerrainModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  132528
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  27568
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TetgenModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  26032
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  86448
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  314280
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TextRenderingModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  39344
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TilemapModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  75696
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TimelineFoundationModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  167336
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.TLSModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  34224
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.U2DRuntimeModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  73648
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UI.dll",
+                      "role":  "ManagedLibrary",
+                      "sizeBytes":  269312
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UIElementsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  2535336
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UIModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  57256
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UmbraModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  26032
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  36784
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  61864
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityConnectModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  29608
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityConsentModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  16304
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityCurlModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  28072
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  30632
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  30640
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  81320
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  29616
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  35248
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  229296
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.VehiclesModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  33192
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.VFXModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  82344
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.VideoModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  48560
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  43944
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.WindModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  28592
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Managed/UnityEngine.XRModule.dll",
+                      "role":  "ManagedEngineAPI",
+                      "sizeBytes":  96168
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Plugins/x86_64/lib_burst_generated.dll",
+                      "role":  "dll",
+                      "sizeBytes":  530944
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_BackUpThisFolder_ButDontShipItWithYourGame/x86_64/lib_burst_generated.txt",
+                      "role":  "txt",
+                      "sizeBytes":  228018
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/app.info",
+                      "role":  "info",
+                      "sizeBytes":  24
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo_Data/Resources/unity default resources",
+                      "role":  "unity default resources",
+                      "sizeBytes":  5919584
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/SocialSimulationDemo.exe",
+                      "role":  "exe",
+                      "sizeBytes":  667136
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/dstorage.dll",
+                      "role":  "dll",
+                      "sizeBytes":  206904
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/dstoragecore.dll",
+                      "role":  "dll",
+                      "sizeBytes":  1482784
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+                      "role":  "dll",
+                      "sizeBytes":  7834536
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+                      "role":  "dll",
+                      "sizeBytes":  611240
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+                      "role":  "browser",
+                      "sizeBytes":  1605
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+                      "role":  "aspx",
+                      "sizeBytes":  60575
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config",
+                      "role":  "config",
+                      "sizeBytes":  29066
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map",
+                      "role":  "map",
+                      "sizeBytes":  2622
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/web.config",
+                      "role":  "config",
+                      "sizeBytes":  11635
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+                      "role":  "browser",
+                      "sizeBytes":  1605
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+                      "role":  "aspx",
+                      "sizeBytes":  60575
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config",
+                      "role":  "config",
+                      "sizeBytes":  33598
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map",
+                      "role":  "map",
+                      "sizeBytes":  2622
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/web.config",
+                      "role":  "config",
+                      "sizeBytes":  18802
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+                      "role":  "browser",
+                      "sizeBytes":  1605
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+                      "role":  "aspx",
+                      "sizeBytes":  60575
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config",
+                      "role":  "config",
+                      "sizeBytes":  34056
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map",
+                      "role":  "map",
+                      "sizeBytes":  2622
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/web.config",
+                      "role":  "config",
+                      "sizeBytes":  18811
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/browscap.ini",
+                      "role":  "ini",
+                      "sizeBytes":  311984
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/config",
+                      "role":  "config",
+                      "sizeBytes":  3815
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+                      "role":  "xml",
+                      "sizeBytes":  25817
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/UnityCrashHandler64.exe",
+                      "role":  "exe",
+                      "sizeBytes":  1772968
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/UnityPlayer.dll",
+                      "role":  "dll",
+                      "sizeBytes":  38693808
+                  },
+                  {
+                      "path":  "D:/unity_hub/NPCsystem/Builds/Windows/D3D12/D3D12Core.dll",
+                      "role":  "dll",
+                      "sizeBytes":  4725304
+                  }
+              ],
+    "packedAssets":  [
+
+                     ],
+    "buildSteps":  [
+                       {
+                           "name":  "Build player",
+                           "durationMs":  14507,
+                           "depth":  0,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Call PrepareForBuild callbacks",
+                           "durationMs":  3,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Call internal build started callbacks",
+                           "durationMs":  0,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Preprocess Player",
+                           "durationMs":  1320,
+                           "depth":  1,
+                           "messages":  [
+                                            {
+                                                "type":  "Log",
+                                                "content":  "1 URP assets included in build\r\n- PC_RPAsset - Assets/Settings/PC_RPAsset.asset\r\n\t - PC_Renderer - Assets/Settings/PC_Renderer.asset - UnityEngine.Rendering.Universal.UniversalRendererData\r\n"
+                                            },
+                                            {
+                                                "type":  "Log",
+                                                "content":  "[TestRunBuilder] Creating new file \u0027Assets/Resources/PerformanceTestRunInfo.json\u0027 (3062 bytes)"
+                                            },
+                                            {
+                                                "type":  "Log",
+                                                "content":  "[TestRunBuilder] Creating new file \u0027Assets/Resources/PerformanceTestRunSettings.json\u0027 (23 bytes)"
+                                            },
+                                            {
+                                                "type":  "Warning",
+                                                "content":  "Pipeline: No RuntimePipelineConfig asset found (Project Settings \u003e Pipeline \u003e Runtime). Pipeline will be disabled in Player builds."
+                                            }
+                                        ]
+                       },
+                       {
+                           "name":  "Save scenes before build",
+                           "durationMs":  1,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Back up scenes",
+                           "durationMs":  68,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Prepare For Build",
+                           "durationMs":  13,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "ProducePlayerScriptAssemblies",
+                           "durationMs":  7490,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Prebuild Cleanup and Recompile",
+                           "durationMs":  5402,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Compile scripts",
+                           "durationMs":  5277,
+                           "depth":  3,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Generate and validate platform script types",
+                           "durationMs":  20,
+                           "depth":  3,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Verify Build setup",
+                           "durationMs":  638,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "GetUnityAssemblies",
+                           "durationMs":  30,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "GetPlayerAssemblies",
+                           "durationMs":  34,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Check old data build",
+                           "durationMs":  554,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Set up scripts only build",
+                           "durationMs":  0,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Prepare assets for target platform",
+                           "durationMs":  3,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Prepare splash screen",
+                           "durationMs":  1,
+                           "depth":  1,
+                           "messages":  [
+                                            {
+                                                "type":  "Log",
+                                                "content":  "Including Unity Splash Screen logo because \u0027Show Unity Logo\u0027 is enabled."
+                                            }
+                                        ]
+                       },
+                       {
+                           "name":  "Run script only build",
+                           "durationMs":  83,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Compile Global Game Manager dependencies",
+                           "durationMs":  77,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Load object[unnamed] (Sprite) from Library/SplashScreenCache/e9/e90129bf8381db191f79c6e7976051ce",
+                           "durationMs":  2,
+                           "depth":  3,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Load object[unnamed] (MonoManager) from Library/MonoManager.asset",
+                           "durationMs":  2,
+                           "depth":  3,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Load object[unnamed] (GraphicsSettings) from ProjectSettings/GraphicsSettings.asset",
+                           "durationMs":  9,
+                           "depth":  3,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Build scripts DLLs",
+                           "durationMs":  64,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "GetSystemAssemblies",
+                           "durationMs":  3,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Postprocess built player",
+                           "durationMs":  4192,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Setup incremental player build",
+                           "durationMs":  45,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Incremental player build",
+                           "durationMs":  4055,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Report output files",
+                           "durationMs":  74,
+                           "depth":  2,
+                           "messages":  [
+
+                                        ]
+                       },
+                       {
+                           "name":  "Call Post-Process callbacks",
+                           "durationMs":  277,
+                           "depth":  1,
+                           "messages":  [
+
+                                        ]
+                       }
+                   ],
+    "errors":  [
+
+               ],
+    "warnings":  [
+                     {
+                         "message":  "Pipeline: No RuntimePipelineConfig asset found (Project Settings \u003e Pipeline \u003e Runtime). Pipeline will be disabled in Player builds."
+                     }
+                 ]
+}

@@ -1,0 +1,477 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c1e34bca9226d44a9c0b9c5f3666d9, type: 3}
+  m_Name: CombinedSocialStructure
+  m_EditorClassIdentifier: SocialSimulation.Graph::SocialSimulation.Graph.SocialStructureDocument
+  documentId: sample.structure.combined
+  version: 1
+  nodes:
+  - Id: 00000000000000000000000000000001
+    EntityId: "npc.student.01"
+    Type: 0
+    Position: {x: 40, y: 60}
+    Label: "Student 01"
+    TemplateId: "npc.charactermedium"
+    LinkedCollectiveId: ""
+    PlaceId: "campus.classroom.a"
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 00000000000000000000000000000002
+    EntityId: "npc.teacher.01"
+    Type: 0
+    Position: {x: 40, y: 250}
+    Label: "Teacher 01"
+    TemplateId: "npc.charactermedium"
+    LinkedCollectiveId: ""
+    PlaceId: "campus.office"
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 00000000000000000000000000000003
+    EntityId: "npc.clerk.01"
+    Type: 0
+    Position: {x: 40, y: 440}
+    Label: "Clerk 01"
+    TemplateId: "npc.charactermedium"
+    LinkedCollectiveId: ""
+    PlaceId: "trade.shop.corner"
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 00000000000000000000000000000004
+    EntityId: "campus.class.01"
+    Type: 1
+    Position: {x: 340, y: 20}
+    Label: "Class 01"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 00000000000000000000000000000005
+    EntityId: "campus.faculty"
+    Type: 1
+    Position: {x: 340, y: 180}
+    Label: "Campus Faculty"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 1
+    Capacity: 1
+  - Id: 00000000000000000000000000000006
+    EntityId: "household.river"
+    Type: 1
+    Position: {x: 340, y: 350}
+    Label: "River Household"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 00000000000000000000000000000007
+    EntityId: "trade.corner_shop"
+    Type: 1
+    Position: {x: 340, y: 520}
+    Label: "Corner Shop"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 1
+    Capacity: 1
+  - Id: 00000000000000000000000000000008
+    EntityId: "trade.corner_shop"
+    Type: 2
+    Position: {x: 620, y: 520}
+    Label: "Corner Shop Organization"
+    TemplateId: ""
+    LinkedCollectiveId: "trade.corner_shop"
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 00000000000000000000000000000009
+    EntityId: "campus.student"
+    Type: 3
+    Position: {x: 620, y: 0}
+    Label: "Student Role"
+    TemplateId: ""
+    LinkedCollectiveId: "campus.class.01"
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 0000000000000000000000000000000a
+    EntityId: "campus.teacher"
+    Type: 3
+    Position: {x: 620, y: 120}
+    Label: "Teacher Role"
+    TemplateId: ""
+    LinkedCollectiveId: "campus.faculty"
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 0000000000000000000000000000000b
+    EntityId: "household.child"
+    Type: 3
+    Position: {x: 620, y: 260}
+    Label: "Child Role"
+    TemplateId: ""
+    LinkedCollectiveId: "household.river"
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 0000000000000000000000000000000c
+    EntityId: "household.parent"
+    Type: 3
+    Position: {x: 620, y: 370}
+    Label: "Parent Role"
+    TemplateId: ""
+    LinkedCollectiveId: "household.river"
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 0000000000000000000000000000000d
+    EntityId: "trade.clerk"
+    Type: 3
+    Position: {x: 620, y: 650}
+    Label: "Clerk Role"
+    TemplateId: ""
+    LinkedCollectiveId: "trade.corner_shop"
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: ""
+    RegionInstanceId: ""
+    Formal: 0
+    Capacity: 1
+  - Id: 0000000000000000000000000000000e
+    EntityId: "campus.classroom.a"
+    Type: 4
+    Position: {x: 950, y: 40}
+    Label: "Classroom A"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: "campus.classroom"
+    RegionInstanceId: "campus.classroom.a"
+    Formal: 0
+    Capacity: 64
+  - Id: 0000000000000000000000000000000f
+    EntityId: "household.home.river"
+    Type: 4
+    Position: {x: 950, y: 330}
+    Label: "River Home"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: "household.home"
+    RegionInstanceId: "household.home.river"
+    Formal: 0
+    Capacity: 64
+  - Id: 00000000000000000000000000000010
+    EntityId: "trade.shop.corner"
+    Type: 4
+    Position: {x: 950, y: 560}
+    Label: "Corner Shop"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: "trade.shop"
+    RegionInstanceId: "trade.shop.corner"
+    Formal: 0
+    Capacity: 64
+  - Id: 00000000000000000000000000000011
+    EntityId: "campus.office"
+    Type: 4
+    Position: {x: 950, y: 180}
+    Label: "Campus Office"
+    TemplateId: ""
+    LinkedCollectiveId: ""
+    PlaceId: ""
+    Governance: LeaderAuthorized
+    AssetIds: ""
+    Tag: "campus.office"
+    RegionInstanceId: "campus.office"
+    Formal: 0
+    Capacity: 64
+  edges:
+  - Id: 00000000000000000000000000000065
+    FromNodeId: 00000000000000000000000000000001
+    ToNodeId: 00000000000000000000000000000004
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000066
+    FromNodeId: 00000000000000000000000000000002
+    ToNodeId: 00000000000000000000000000000005
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000067
+    FromNodeId: 00000000000000000000000000000001
+    ToNodeId: 00000000000000000000000000000006
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000068
+    FromNodeId: 00000000000000000000000000000002
+    ToNodeId: 00000000000000000000000000000006
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000069
+    FromNodeId: 00000000000000000000000000000003
+    ToNodeId: 00000000000000000000000000000006
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 0000000000000000000000000000006a
+    FromNodeId: 00000000000000000000000000000003
+    ToNodeId: 00000000000000000000000000000007
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 0000000000000000000000000000006b
+    FromNodeId: 00000000000000000000000000000001
+    ToNodeId: 00000000000000000000000000000009
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 0000000000000000000000000000006c
+    FromNodeId: 00000000000000000000000000000002
+    ToNodeId: 0000000000000000000000000000000a
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 0000000000000000000000000000006d
+    FromNodeId: 00000000000000000000000000000001
+    ToNodeId: 0000000000000000000000000000000b
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 0000000000000000000000000000006e
+    FromNodeId: 00000000000000000000000000000002
+    ToNodeId: 0000000000000000000000000000000c
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 0000000000000000000000000000006f
+    FromNodeId: 00000000000000000000000000000003
+    ToNodeId: 0000000000000000000000000000000c
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000070
+    FromNodeId: 00000000000000000000000000000003
+    ToNodeId: 0000000000000000000000000000000d
+    Type: 0
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000071
+    FromNodeId: 00000000000000000000000000000002
+    ToNodeId: 00000000000000000000000000000001
+    Type: 1
+    RelationType: "care"
+    Liking: 0.6
+    Trust: 0.7
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000072
+    FromNodeId: 00000000000000000000000000000001
+    ToNodeId: 00000000000000000000000000000002
+    Type: 1
+    RelationType: "kinship"
+    Liking: 0.5
+    Trust: 0.6
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000073
+    FromNodeId: 00000000000000000000000000000007
+    ToNodeId: 00000000000000000000000000000003
+    Type: 2
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: "policy.publish"
+    CollectiveId: "trade.corner_shop"
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000074
+    FromNodeId: 00000000000000000000000000000008
+    ToNodeId: 00000000000000000000000000000010
+    Type: 3
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0
+  - Id: 00000000000000000000000000000075
+    FromNodeId: 00000000000000000000000000000006
+    ToNodeId: 0000000000000000000000000000000f
+    Type: 3
+    RelationType: "friend"
+    Liking: 0
+    Trust: 0
+    ActionId: ""
+    CollectiveId: ""
+    PlaceScopeId: ""
+    ObjectScopeId: ""
+    ParentEdgeId: ""
+    CanDelegate: 0

@@ -1,0 +1,26 @@
+{
+  "name": "SocialSimulation.Samples.Editor",
+  "rootNamespace": "SocialSimulation.Editor.Samples",
+  "references": [
+    "SocialSimulation.Core",
+    "SocialSimulation.Authoring",
+    "SocialSimulation.Graph",
+    "SocialSimulation.UnityRuntime",
+    "SocialSimulation.Domains",
+    "SocialSimulation.Domains.DomainActions",
+    "SocialSimulation.Domains.Campus",
+    "SocialSimulation.Domains.Household",
+    "SocialSimulation.Domains.WorkAndTrade",
+    "SocialSimulation.Domains.Combined",
+    "Unity.AI.Navigation"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

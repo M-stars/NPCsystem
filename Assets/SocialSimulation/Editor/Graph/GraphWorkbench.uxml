@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="workbench" class="workbench">
+        <ui:VisualElement name="toolbar" class="toolbar" />
+        <ui:VisualElement name="runtimeToolbar" class="runtime-toolbar" />
+        <ui:VisualElement name="main" class="main">
+            <ui:VisualElement name="leftPanel" class="side-panel left-panel">
+                <ui:Label text="节点库" class="panel-title" />
+                <ui:VisualElement name="paletteHeader" />
+                <ui:ScrollView name="palette" class="palette" />
+            </ui:VisualElement>
+            <ui:VisualElement name="graphHost" class="graph-host" />
+            <ui:VisualElement name="rightPanel" class="side-panel right-panel">
+                <ui:Label text="节点属性" class="panel-title" />
+                <ui:ScrollView name="inspector" class="inspector" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom" class="bottom">
+            <ui:Label name="status" text="选择一张行为图或规则图" class="status" />
+            <ui:VisualElement name="bottomBody" class="bottom-body">
+                <ui:VisualElement name="blackboardPanel" class="blackboard-panel">
+                    <ui:VisualElement name="blackboardToolbar" class="blackboard-toolbar" />
+                    <ui:ScrollView name="blackboardList" class="blackboard-list" />
+                </ui:VisualElement>
+                <ui:VisualElement name="rulePreviewPanel" class="rule-preview-panel">
+                    <ui:VisualElement name="rulePreviewToolbar" class="blackboard-toolbar" />
+                    <ui:ScrollView name="rulePreviewFields" class="rule-preview-fields" />
+                    <ui:ScrollView name="rulePreviewResults" class="rule-preview-results" />
+                </ui:VisualElement>
+                <ui:ScrollView name="diagnostics" class="diagnostics" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

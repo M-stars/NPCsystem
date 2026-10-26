@@ -1,0 +1,30 @@
+{
+  "name": "SocialSimulation.IndependentDomains.Tests",
+  "rootNamespace": "SocialSimulation.Domains.Tests",
+  "references": [
+    "SocialSimulation.Core",
+    "SocialSimulation.UnityRuntime",
+    "SocialSimulation.Domains.Household",
+    "SocialSimulation.Domains.WorkAndTrade",
+    "SocialSimulation.Graph",
+    "SocialSimulation.Actions",
+    "SocialSimulation.Domains.DomainActions"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

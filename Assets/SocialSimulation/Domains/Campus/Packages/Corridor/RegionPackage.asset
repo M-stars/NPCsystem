@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9148d93f496bb4ab2b0beede506a0e, type: 3}
+  m_Name: RegionPackage
+  m_EditorClassIdentifier: SocialSimulation.Authoring::SocialSimulation.Authoring.RegionPackageAsset
+  packageId: region.campus.corridor
+  version: 1.1.0
+  regionPrefab: {fileID: 5105554093578012335, guid: 3584ff0cc9f792a4b9166b57593b3e14, type: 3}
+  regions:
+  - Id: campus.corridor
+    PackageId: region.campus.corridor
+    Tag: campus.corridor
+    Capacity: 64
+    Zones:
+    - LocalId: passage
+      Tag: campus.passage
+      Capacity: 64
+    Points:
+    - LocalId: checkpoint.1
+      ZoneLocalId: passage
+      Kind: locomotion.walk
+      Capacity: 2
+    - LocalId: checkpoint.2
+      ZoneLocalId: passage
+      Kind: locomotion.walk
+      Capacity: 2
+    - LocalId: checkpoint.3
+      ZoneLocalId: passage
+      Kind: locomotion.walk
+      Capacity: 2
+    Bounds:
+      Enabled: 1
+      CenterX: 0
+      CenterY: 2
+      CenterZ: 0
+      SizeX: 34
+      SizeY: 6
+      SizeZ: 5
+    EntranceLocalIds:
+    - main
+    OpeningPeriodSeconds: 86400
+    OpeningTimeOffsetSeconds: 0
+    OpeningHours: []
+    Access:
+      RequireOwnerMembership: 0
+      RequiredCollectiveIds: []
+      RequiredRoles: []

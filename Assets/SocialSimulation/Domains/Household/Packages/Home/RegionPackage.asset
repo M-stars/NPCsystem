@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9148d93f496bb4ab2b0beede506a0e, type: 3}
+  m_Name: RegionPackage
+  m_EditorClassIdentifier: SocialSimulation.Authoring::SocialSimulation.Authoring.RegionPackageAsset
+  packageId: region.household.home
+  version: 1.1.0
+  regionPrefab: {fileID: 4025467832657306153, guid: 0e03737008a09a6489d8cca546e95ee2, type: 3}
+  regions:
+  - Id: household.home
+    PackageId: region.household.home
+    Tag: household.home
+    Capacity: 64
+    Zones:
+    - LocalId: dining
+      Tag: household.dining
+      Capacity: 8
+    - LocalId: living
+      Tag: household.living
+      Capacity: 8
+    Points:
+    - LocalId: table.seat.1
+      ZoneLocalId: dining
+      Kind: posture.sit
+      Capacity: 1
+    - LocalId: table.seat.2
+      ZoneLocalId: dining
+      Kind: posture.sit
+      Capacity: 1
+    - LocalId: table.seat.3
+      ZoneLocalId: dining
+      Kind: posture.sit
+      Capacity: 1
+    - LocalId: table.seat.4
+      ZoneLocalId: dining
+      Kind: posture.sit
+      Capacity: 1
+    - LocalId: family.talk
+      ZoneLocalId: living
+      Kind: communication.speak
+      Capacity: 4
+    Bounds:
+      Enabled: 1
+      CenterX: 0
+      CenterY: 2
+      CenterZ: 0
+      SizeX: 10
+      SizeY: 6
+      SizeZ: 9
+    EntranceLocalIds:
+    - main
+    OpeningPeriodSeconds: 86400
+    OpeningTimeOffsetSeconds: 0
+    OpeningHours: []
+    Access:
+      RequireOwnerMembership: 0
+      RequiredCollectiveIds: []
+      RequiredRoles: []

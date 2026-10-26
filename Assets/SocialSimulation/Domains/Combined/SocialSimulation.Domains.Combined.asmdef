@@ -1,0 +1,17 @@
+{
+  "name": "SocialSimulation.Domains.Combined",
+  "rootNamespace": "SocialSimulation.Domains.Combined",
+  "references": ["SocialSimulation.Core", "SocialSimulation.Domains",
+    "SocialSimulation.Domains.Campus", "SocialSimulation.Domains.Household",
+    "SocialSimulation.Domains.WorkAndTrade", "SocialSimulation.Graph",
+    "SocialSimulation.UnityRuntime"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
