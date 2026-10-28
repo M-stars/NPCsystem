@@ -306,16 +306,19 @@ namespace SocialSimulation.Domains.Campus
 
         private string CreateCourseDuty(string actorId, string placeId, string suffix)
         {
-            // Class times stay anchored to the world origin, but duties are created lazily from
-            // the teacher's due event (At=300), by which point world.Time may already sit past
-            // the nominal 300s departure deadline (tick granularity or drift). Shrinking the
-            // travel lead keeps DueAt at or after "now", which ScheduleService requires.
-            return world.Schedules.Create(new ScheduleDefinition
+            // Class times stay anchored to the world origin (start 900, ends 3600), but duties
+            // are created lazily from the teacher's due event (At=300), by which point
+            // world.Time may already sit past the nominal 300s departure deadline (tick
+            // granularity or drift). Clamping DueAt to "now" keeps ScheduleService's expiry
+            // rejection from firing while the class window stays put; at Time<=300 this is
+            // exactly the nominal DueAt of 300.
+            var dueAt = Math.Max(300, world.Time);
+            return world.Schedules.Create(new DutyAssignment
             {
-                Id = "campus.course." + suffix, DomainId = "campus", ActionId = "campus.course",
-                PlaceId = placeId, StartOffsetSeconds = 900, DurationSeconds = 2700,
-                TravelLeadSeconds = Math.Max(0, 900 - world.Time), LateGraceSeconds = 120, Priority = 90
-            }, actorId, 0).Id;
+                DefinitionId = "campus.course." + suffix, DefinitionVersion = "1.0.0",
+                DomainId = "campus", AgentId = actorId, ActionId = "campus.course", PlaceId = placeId,
+                DueAt = dueAt, StartsAt = 900, LatestStartAt = 1020, EndsAt = 3600, Priority = 90
+            }).Id;
         }
 
         private void HandleDutyDue(WorldEvent item)
