@@ -79,6 +79,11 @@ namespace SocialSimulation.Core
 
     internal static class SnapshotClone
     {
+        // Field metadata is immutable per type; caching it keeps deep copies (whole-world
+        // snapshots, per-knowledge-event clones) from re-running GetFields on every object.
+        private static readonly Dictionary<Type, FieldInfo[]> FieldsByType =
+            new Dictionary<Type, FieldInfo[]>();
+
         public static T Copy<T>(T item) { return (T)CopyObject(item); }
 
         private static object CopyObject(object item)
@@ -94,9 +99,19 @@ namespace SocialSimulation.Core
                 return target;
             }
             var copy = Activator.CreateInstance(type);
-            foreach (var field in type.GetFields(BindingFlags.Instance | BindingFlags.Public))
+            foreach (var field in GetFields(type))
                 field.SetValue(copy, CopyObject(field.GetValue(item)));
             return copy;
+        }
+
+        private static FieldInfo[] GetFields(Type type)
+        {
+            if (!FieldsByType.TryGetValue(type, out var fields))
+            {
+                fields = type.GetFields(BindingFlags.Instance | BindingFlags.Public);
+                FieldsByType[type] = fields;
+            }
+            return fields;
         }
     }
 
