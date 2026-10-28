@@ -577,9 +577,21 @@ namespace SocialSimulation.Domains.Campus
 
         private static string StudentId(int number) { return "npc.student." + number.ToString("00"); }
 
+        // Mirror WorkAndTrade/Household: disabling must also detach the course behavior system,
+        // and re-enabling must resubscribe — otherwise the module never hears events again.
+        private void OnEnable()
+        {
+            if (world == null || courseBehavior == null) return;
+            world.AddSystem(courseBehavior);
+            world.EventPublished -= OnWorldEvent;
+            world.EventPublished += OnWorldEvent;
+        }
+
         private void OnDisable()
         {
-            if (world != null) world.EventPublished -= OnWorldEvent;
+            if (world == null) return;
+            world.EventPublished -= OnWorldEvent;
+            world.RemoveSystem(courseBehavior);
         }
     }
 }
