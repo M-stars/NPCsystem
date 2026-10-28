@@ -337,7 +337,9 @@ namespace SocialSimulation.Core
             catch (OverflowException) { return false; }
             balances[Key(sellerId, itemId)] -= itemCount;
             balances[Key(buyerId, itemId)] = buyerItems;
-            balances[Key(buyerId, moneyId)] -= price;
+            // A zero price is legal, so the buyer may never have held the money resource and
+            // the indexer below would throw after the item already changed hands.
+            balances[Key(buyerId, moneyId)] = Balance(buyerId, moneyId) - price;
             balances[Key(sellerId, moneyId)] = sellerMoney;
             committedTransactions.Add(transactionId, receipt);
             Ledger.Add(new LedgerEntry { Id = world.NextId(), TransactionId = transactionId,

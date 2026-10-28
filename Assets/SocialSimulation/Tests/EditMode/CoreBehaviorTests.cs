@@ -161,6 +161,21 @@ namespace SocialSimulation.Tests
         }
 
         [Test]
+        public void ZeroPriceExchangeCommitsAtomicallyEvenWhenBuyerNeverHeldMoney()
+        {
+            var world = WorldWithAgents("buyer", "seller");
+            world.Economy.Seed("seller", "apple", 2);
+            Assert.IsTrue(world.Economy.Exchange("gift-1", "buyer", "seller", "apple", 1, "coin", 0));
+            Assert.AreEqual(1, world.Economy.Balance("buyer", "apple"));
+            Assert.AreEqual(1, world.Economy.Balance("seller", "apple"));
+            Assert.AreEqual(0, world.Economy.Balance("buyer", "coin"));
+            Assert.AreEqual(1, world.Economy.Ledger.Count, "A free exchange writes no counter-resource ledger entry.");
+            // The receipt commits even for a free transfer, so a replay cannot move the item twice.
+            Assert.IsTrue(world.Economy.Exchange("gift-1", "buyer", "seller", "apple", 1, "coin", 0));
+            Assert.AreEqual(1, world.Economy.Balance("buyer", "apple"));
+        }
+
+        [Test]
         public void TransactionIdCannotBeReusedForAnotherTransfer()
         {
             var world = WorldWithAgents("a", "b", "c");
