@@ -306,11 +306,15 @@ namespace SocialSimulation.Domains.Campus
 
         private string CreateCourseDuty(string actorId, string placeId, string suffix)
         {
+            // Class times stay anchored to the world origin, but duties are created lazily from
+            // the teacher's due event (At=300), by which point world.Time may already sit past
+            // the nominal 300s departure deadline (tick granularity or drift). Shrinking the
+            // travel lead keeps DueAt at or after "now", which ScheduleService requires.
             return world.Schedules.Create(new ScheduleDefinition
             {
                 Id = "campus.course." + suffix, DomainId = "campus", ActionId = "campus.course",
                 PlaceId = placeId, StartOffsetSeconds = 900, DurationSeconds = 2700,
-                TravelLeadSeconds = 600, LateGraceSeconds = 120, Priority = 90
+                TravelLeadSeconds = Math.Max(0, 900 - world.Time), LateGraceSeconds = 120, Priority = 90
             }, actorId, 0).Id;
         }
 
@@ -362,6 +366,9 @@ namespace SocialSimulation.Domains.Campus
             if (!string.IsNullOrEmpty(session) || !RegionAvailable(classroom) ||
                 !world.Schedules.Assignments.TryGetValue(teacherDutyId ?? "", out var teacherDuty) ||
                 teacherDuty.State != "Accepted") return;
+            // Past the anchored 900s class start there is no course left to prepare, and the
+            // duties below could only be rejected as expired; skip instead of throwing.
+            if (world.Time > 900) return;
             session = world.Activities.Create("campus.course", teacherId, classroom,
                 900, 1020, 2700, 1, 11).Id;
             runner.RequestTravel(teacherId, classroom, "teacher.podium", "campus.course");
