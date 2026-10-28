@@ -110,8 +110,11 @@ namespace SocialSimulation.Core
             // One pending event per rule keeps a multi-record burst to a single re-evaluation.
             foreach (var item in world.ScheduledEvents)
                 if (item.Type == DueEventType && item.EmitterId == ServiceEmitterId && item.Payload == key) return;
+            // Rules outlive their agent: a forgotten event can still be in flight while the
+            // agent is removed mid-dispatch, and the scheduled event needs its place.
+            if (!world.Agents.TryGetValue(rule.AgentId, out var agent)) return;
             world.Schedule(world.Time, DueEventType, ServiceEmitterId, rule.AgentId,
-                world.Agents[rule.AgentId].PlaceId, key);
+                agent.PlaceId, key);
         }
 
         private static bool ContainsKeySeparator(string value) => value != null && value.IndexOf(KeySeparator) >= 0;

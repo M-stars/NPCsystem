@@ -144,5 +144,19 @@ namespace SocialSimulation.Tests
             world.StepOne();
             Assert.AreEqual(0, departedRuns);
         }
+
+        [Test]
+        public void ForgottenEventForARemovedAgentIsDroppedWithoutThrowing()
+        {
+            var world = World();
+            var runs = 0;
+            world.GoalReevaluation.Register("b", "service", "shop", () => runs++);
+            world.RemoveAgent("b");
+            // A forgotten event emitted before the removal can still be queued when the agent
+            // is gone mid-dispatch; scheduling its re-evaluation must not index a dead key.
+            world.Emit("knowledge.forgotten", "b", "b", "service\u001fshop\u001fevent-1");
+            Assert.DoesNotThrow(world.StepOne);
+            Assert.AreEqual(0, runs, "A departed agent has no place to schedule a re-evaluation for.");
+        }
     }
 }
